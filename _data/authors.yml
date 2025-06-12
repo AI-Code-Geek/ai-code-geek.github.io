@@ -1,7 +1,7 @@
 nagul_meera:
   name        : "Nagul Meera Mahankali"
   bio         : "Technology Enthusiast"
-  avatar      : "/assets/images/bio-photo-2.jpg"
+  avatar      : "/assets/images/author.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

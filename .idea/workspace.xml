@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3283ca65-e9d8-4e75-b645-a4a8837a5523" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/assets/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/author.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/authors.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/authors.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +34,12 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/mythigs/LLMWorkSpace/python/ai-code-geek.github.io/docs/assets/images/2025/june"
+    "last_opened_file_path": "C:/mythigs/LLMWorkSpace/python/ai-code-geek.github.io/assets"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\assets" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2025\june" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -207,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749767090476</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1749768429410</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1749768429410</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
