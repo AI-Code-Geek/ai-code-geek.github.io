@@ -4,6 +4,8 @@ title: "About Me"
 layout: single
 author_profile: true
 ---
+![About](/docs/assets/images/2025/june/about.png)
+
 
 ![Meera Prince](https://your-image-link.com)
 
