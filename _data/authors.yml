@@ -1,0 +1,14 @@
+nagul_meera:
+  name        : "Nagul Meera Mahankali"
+  bio         : "Technology Enthusiast"
+  avatar      : "/assets/images/bio-photo-2.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:meera.success@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://aicodegeek.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/meera.prince"
