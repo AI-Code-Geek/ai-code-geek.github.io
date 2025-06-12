@@ -6,9 +6,7 @@ minimal_mistakes_skin: "dark"
 title: "AI Code Geek"
 subtitle: "Where AI Meets Code 🚀 Learn, Build, Inspire"
 name: "AI Code Geek"
-header:
-  # Reference the logo image (adjust the path if necessary)
-  logo: "/assets/images/logo.png"
+logo: "/assets/images/logo.png"
 include:
   - _pages
 defaults:
