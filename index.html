@@ -12,7 +12,7 @@ layout: default
 
     <div class="recent-posts">
         <h3>Recent Posts</h3>
-        {% for post in site.posts limit:3 %}
+        {% for post in site.posts limit:100 %}
         <article>
             <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
             <p>{{ post.excerpt }}</p>
