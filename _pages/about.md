@@ -4,17 +4,10 @@ title: "About Me"
 layout: single
 author_profile: true
 ---
-![About](/docs/assets/images/2025/june/about.png)
-
 
 ![Meera Prince](https://your-image-link.com)
 
-## Welcome to AI Code Geek
-
-AI Code Geek is the personal blog of **Nagul Meera Mahankali**, a passionate writer, developer, and explorer in the realm of **Artificial Intelligence** and **Large Language Models (LLMs)**. This space is dedicated to **sharing knowledge, documenting experiments, and providing insightful perspectives** on the evolving landscape of AI.
-
-### About Me
-
+![About](/docs/assets/images/2025/june/about.png)
 With a deep curiosity for **automation, AI-driven solutions, and innovation**, I write to **educate, inspire, and simplify** complex technical concepts. Whether it's deep dives into AI architectures, hands-on guides, or reflections on the future of technology, my goal is to make AI **accessible and engaging** for everyone.
 
 ### What I Write About
