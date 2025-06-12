@@ -4,7 +4,7 @@ plugins:
   - jekyll-include-cache
 minimal_mistakes_skin: "dark"
 title: "AI Code Geek"
-subtitle: "Welcome to AI Java space"
+subtitle: "Where AI Meets Code—Learn, Build, Inspire"
 name: "AI Code Geek"
 include:
   - _pages
