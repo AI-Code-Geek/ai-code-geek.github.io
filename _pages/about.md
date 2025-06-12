@@ -9,7 +9,7 @@ author_profile: true
 
 ## Welcome to AI Code Geek
 
-AI Code Geek is the personal blog of **Meera Prince**, a passionate writer, developer, and explorer in the realm of **Artificial Intelligence** and **Large Language Models (LLMs)**. This space is dedicated to **sharing knowledge, documenting experiments, and providing insightful perspectives** on the evolving landscape of AI.
+AI Code Geek is the personal blog of **Nagul Meera Mahankali**, a passionate writer, developer, and explorer in the realm of **Artificial Intelligence** and **Large Language Models (LLMs)**. This space is dedicated to **sharing knowledge, documenting experiments, and providing insightful perspectives** on the evolving landscape of AI.
 
 ### About Me
 
