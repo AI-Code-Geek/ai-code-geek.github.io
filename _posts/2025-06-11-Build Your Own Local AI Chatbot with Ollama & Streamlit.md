@@ -1,3 +1,10 @@
+---
+layout: single
+title: "🤖 Build Your Own Local AI Chatbot with Ollama & Streamlit"
+author: nagul_meera
+author_profile: true
+---
+
 # 🤖 Build Your Own Local AI Chatbot with Ollama & Streamlit
 
 ## Environment

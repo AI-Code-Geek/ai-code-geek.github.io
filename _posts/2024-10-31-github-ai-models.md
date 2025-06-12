@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: "GitHub AI Models usage in Java"
 author: nagul_meera
 author_profile: true
