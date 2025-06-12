@@ -2,10 +2,9 @@
 permalink: /about/
 title: "About Me"
 layout: single
+author: nagul_meera
+author_profile: true
 ---
-
-![Meera Prince](https://your-image-link.com)
-
 ![About](/docs/assets/images/2025/june/about.png)
 
 With a deep curiosity for **automation, AI-driven solutions, and innovation**, I write to **educate, inspire, and simplify** complex technical concepts. Whether it's deep dives into AI architectures, hands-on guides, or reflections on the future of technology, my goal is to make AI **accessible and engaging** for everyone.
