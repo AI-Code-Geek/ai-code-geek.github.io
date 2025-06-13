@@ -3,8 +3,8 @@ plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-include-cache
 minimal_mistakes_skin: "dark"
-title: "AI Code Geek"
-subtitle: "Where AI Meets Code 🚀 Learn, Build, Inspire"
+title: ""
+#subtitle: "Where AI Meets Code 🚀 Learn, Build, Inspire"
 masthead_title: false
 name: "AI Code Geek"
 logo: "/assets/images/logo.png"
