@@ -5,7 +5,8 @@ author: nagul_meera
 author_profile: true
 ---
 
-# GitHub AI Models
+This simple Java code will demonstrate the usage of GitHub AI models through the Azure AI SDK, showcasing how to seamlessly integrate Microsoft's powerful AI infrastructure with GitHub's development ecosystem.
+
 
 ### Example of GitHub AI Models Usage
 #### Model : gpt-4o-mini
