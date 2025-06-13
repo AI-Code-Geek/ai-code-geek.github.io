@@ -12,7 +12,7 @@ Blog will demonstrate how to build an AI chatbot using Ollama local models and S
 
 ## About Ollama
 
-[https://github.com/ollama/ollama]()
+[https://github.com/ollama/ollama](https://github.com/ollama/ollama)
 
 Ollama is opensource application that will helps to create and run the Large Language Models in local machines. We can install the software in any of the location desktops and can run models in local and can use it.
 
@@ -30,7 +30,7 @@ Streamlit open source GUI library and it can build User Interface applications v
 
 ### Install Ollama In Local Machine
 
-Download Ollama here [https://ollama.com/download/windows]()
+Download Ollama here [https://ollama.com/download/windows](https://ollama.com/download/windows)
 
 Open window powershell and run the model with following command:
 ```powershell
