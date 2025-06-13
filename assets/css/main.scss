@@ -8,8 +8,3 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* In your custom Sass file */
-.site-logo img {
-  width: 120px;
-  height: 120px;
-}
