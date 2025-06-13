@@ -12,7 +12,7 @@ Blog will demonstrate how to build an AI chatbot using Ollama local models and S
 
 ## About Ollama
 
-https://github.com/ollama/ollama
+[https://github.com/ollama/ollama]()
 
 Ollama is opensource application that will helps to create and run the Large Language Models in local machines. We can install the software in any of the location desktops and can run models in local and can use it.
 
@@ -30,7 +30,7 @@ Streamlit open source GUI library and it can build User Interface applications v
 
 ### Install Ollama In Local Machine
 
-Download Ollama here https://ollama.com/download/windows
+Download Ollama here [https://ollama.com/download/windows]()
 
 Open window powershell and run the model with following command:
 ```powershell
@@ -49,7 +49,7 @@ ollama serve  # used when you want to start ollama without running the desktop a
 
 ### Install Python
 
-Download python for windows and install: https://www.python.org/downloads/
+Download python for windows and install: [https://www.python.org/downloads/]()
 
 ### Install Streamlit
 
@@ -116,17 +116,17 @@ Start chatbot from powershell:
 streamlit run app.py
 ```
 
-**Local URL**: http://localhost:8501
+**Local URL**: [http://localhost:8501]()
 
 ## Documentation
 
 Go through streamlit documentation and understand the streamlit libraries and its build in functions.
 
 Follow below Streamlit docs that will help us build chatbot like regular LLM chat bots:
-https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/build-conversational-apps
+[https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/build-conversational-apps]()
 
 ## Source Code
 
-https://github.com/AI-Code-Geek/llama3-streamlit-chatbot
+`https://github.com/AI-Code-Geek/llama3-streamlit-chatbot`
 
 ![Chatbot Screenshot](/docs/assets/images/2025/june/chatbot.gif)
