@@ -4,8 +4,6 @@ title: "Ollama: Local AI Model Platform"
 author: nagul_meera
 author_profile: true
 ---
-## Overview
-
 Ollama is an application platform that allows you to run AI models locally on your machine. This provides a convenient way for AI developers and enthusiasts to start exploring and building LLM applications without relying on external services.
 
 ### Key Benefits
@@ -40,7 +38,7 @@ https://ollama.com/download/OllamaSetup.exe
 ```
 
 ### Step 2: List Available Models
-After installation, check what models you have:
+After installation, check what models you have using powershell/command prompt:
 ```bash
 ollama list
 ```
@@ -133,6 +131,6 @@ https://github.com/ollama/ollama?tab=readme-ov-file#model-library
 
 ## API Access from postman
 
-![2.png](/docs/assets/images/2025/june/ollama_local_ai_model_platform/1.png)
+![2.png](/docs/assets/images/2025/june/ollama_local_ai_model_platform/2.png)
 
 *Happy coding with local AI models!*
