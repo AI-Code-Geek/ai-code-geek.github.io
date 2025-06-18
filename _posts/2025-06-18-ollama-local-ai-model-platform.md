@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Ollama: Local AI Model Platform"
+title: "🦙 Ollama: Local AI Model Platform"
 author: nagul_meera
 author_profile: true
 ---

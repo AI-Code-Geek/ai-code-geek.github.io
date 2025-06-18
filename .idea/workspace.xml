@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3283ca65-e9d8-4e75-b645-a4a8837a5523" name="Changes" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2025-06-18-ollama-local-ai-model-platform.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-06-18-ollama-local-ai-model-platform.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -453,7 +456,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750284535328</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1750284809633</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1750284809633</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
