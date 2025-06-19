@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+    {% include head.html %}
+</head>
+<body data-theme="{{ site.theme_color | default: 'purple' }}">
+    {% include header.html %}
+    
+    <main class="page-content" aria-label="Content">
+        {{ content }}
+    </main>
+    
+    {% include footer.html %}
+    {% include color-selector.html %}
+    
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

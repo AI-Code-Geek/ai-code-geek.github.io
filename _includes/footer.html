@@ -1,0 +1,21 @@
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="{{ '/privacy' | relative_url }}">Privacy</a>
+<!--                <a href="{{ '/terms' | relative_url }}">Terms</a>
+                <a href="{{ '/feed.xml' | relative_url }}">RSS</a>-->
+                {% if site.email %}
+                    <a href="mailto:{{ site.email }}">Contact</a>
+                {% endif %}
+                {% if site.social.github %}
+                    <a href="https://github.com/ai-code-geek" target="_blank" rel="noopener">GitHub</a>
+                {% endif %}
+                {% if site.social.twitter %}
+                    <a href="https://x.com/meeraprince" target="_blank" rel="noopener">Twitter</a>
+                {% endif %}
+            </div>
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title | escape }}. Crafted with ✨ using Jekyll</p>
+        </div>
+    </div>
+</footer>

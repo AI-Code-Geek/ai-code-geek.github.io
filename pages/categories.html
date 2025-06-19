@@ -1,0 +1,102 @@
+---
+layout: page
+title:
+permalink: /categories/
+description: "Browse all post categories and discover content by topic"
+---
+
+<div class="categories-hero">
+    <h1>📂 Browse by Category</h1>
+    <p>Discover content organized by topics and interests</p>
+</div>
+
+<div class="categories-grid">
+    {% assign categories = site.categories | sort %}
+    {% for category in categories %}
+        {% assign category_name = category[0] %}
+        {% assign category_posts = category[1] %}
+        {% assign post_count = category_posts | size %}
+        
+        <div class="category-card">
+            <div class="category-header">
+                <h2 class="category-title">
+                    <a href="{{ '/categories/' | append: category_name | slugify | relative_url }}">
+                        {{ category_name | capitalize }}
+                    </a>
+                </h2>
+                <span class="category-count">{{ post_count }} {% if post_count == 1 %}post{% else %}posts{% endif %}</span>
+            </div>
+            
+            <div class="category-description">
+                {% case category_name %}
+                    {% when 'Technology' %}
+                        <p>Latest insights into web development, programming, and emerging technologies.</p>
+                    {% when 'Design' %}
+                        <p>UI/UX design trends, best practices, and creative inspiration.</p>
+                    {% when 'Tutorial' %}
+                        <p>Step-by-step guides and how-to articles for developers and designers.</p>
+                    {% when 'Business' %}
+                        <p>Industry insights, startup advice, and business strategy.</p>
+                    {% when 'Innovation' %}
+                        <p>Cutting-edge developments and future-focused discussions.</p>
+                    {% else %}
+                        <p>Explore articles and insights in {{ category_name | downcase }}.</p>
+                {% endcase %}
+            </div>
+            
+            <div class="category-preview">
+                <h4>Recent Posts:</h4>
+                <ul class="category-posts">
+                    {% for post in category_posts limit: 3 %}
+                        <li>
+                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                            <time datetime="{{ post.date | date_to_xmlschema }}">
+                                {{ post.date | date: "%b %d, %Y" }}
+                            </time>
+                        </li>
+                    {% endfor %}
+                    
+                    {% if post_count > 3 %}
+                        <li class="view-all">
+                            <a href="{{ '/categories/' | append: category_name | slugify | relative_url }}">
+                                View all {{ post_count }} posts →
+                            </a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+            
+            <div class="category-footer">
+                <a href="{{ '/categories/' | append: category_name | slugify | relative_url }}" class="category-link">
+                    Explore {{ category_name }} →
+                </a>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+{% if categories.size == 0 %}
+    <div class="no-categories">
+        <h2>No categories yet</h2>
+        <p>Categories will appear here as you add posts with category tags.</p>
+        <a href="{{ '/' | relative_url }}" class="btn">← Back to Home</a>
+    </div>
+{% endif %}
+
+<div class="categories-stats">
+    <div class="stats-grid">
+        <div class="stat-item">
+            <span class="stat-number">{{ categories.size }}</span>
+            <span class="stat-label">Categories</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">{{ site.posts.size }}</span>
+            <span class="stat-label">Total Posts</span>
+        </div>
+        <div class="stat-item">
+            {% assign avg_posts = site.posts.size | divided_by: categories.size %}
+            <span class="stat-number">{{ avg_posts }}</span>
+            <span class="stat-label">Avg per Category</span>
+        </div>
+    </div>
+</div>

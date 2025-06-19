@@ -1,0 +1,252 @@
+// Responsive Design
+@media (max-width: $breakpoint-tablet) {
+    .main-layout {
+        grid-template-columns: 1fr;
+        gap: $spacing-lg;
+    }
+    
+    .sidebar {
+        position: static;
+        order: -1;
+    }
+    
+    .post-navigation {
+        grid-template-columns: 1fr;
+        
+        .nav-previous,
+        .nav-next {
+            text-align: left;
+        }
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .container {
+        padding: 0 $spacing-md;
+    }
+
+    .header-content {
+        flex-direction: column;
+        gap: $spacing-md;
+        
+        nav ul {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: $spacing-md;
+        }
+    }
+
+    .hero {
+        padding: 4rem 0;
+        
+        h1 {
+            font-size: 2.5rem;
+        }
+        
+        p {
+            font-size: 1.1rem;
+        }
+    }
+
+    .post-card {
+        padding: 1.5rem;
+    }
+    
+    .post-content {
+        padding: $spacing-lg;
+    }
+
+    .post-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: $spacing-md;
+    }
+
+    .color-selector {
+        bottom: $spacing-md;
+        right: $spacing-md;
+        padding: $spacing-sm;
+        
+        h4 {
+            font-size: 0.8rem;
+        }
+        
+        .color-options {
+            gap: 0.3rem;
+        }
+        
+        .color-option {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    
+    .pagination {
+        flex-wrap: wrap;
+        gap: $spacing-sm;
+        
+        a, span {
+            padding: 0.6rem 1rem;
+            font-size: 0.9rem;
+        }
+    }
+    
+    .widget {
+        padding: $spacing-md;
+    }
+    
+    .widget-title {
+        font-size: 1.1rem;
+    }
+    
+    // Typography adjustments
+    h1 { font-size: clamp(1.8rem, 6vw, 2.5rem); }
+    h2 { font-size: clamp(1.4rem, 5vw, 2rem); }
+    h3 { font-size: clamp(1.2rem, 4vw, 1.5rem); }
+    
+    .post-title {
+        font-size: 1.5rem;
+    }
+    
+    .post-header .post-title {
+        font-size: clamp(1.8rem, 6vw, 2.5rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 $spacing-sm;
+    }
+    
+    .hero {
+        padding: 3rem 0;
+    }
+    
+    .post-card,
+    .post-content,
+    .widget {
+        padding: $spacing-md;
+    }
+    
+    .main-layout {
+        gap: $spacing-md;
+        margin: $spacing-lg 0;
+    }
+    
+    .cta-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .post-meta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: $spacing-sm;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        gap: $spacing-md;
+    }
+}
+
+// Print styles
+@media print {
+    * {
+        background: white !important;
+        color: black !important;
+        box-shadow: none !important;
+    }
+    
+    .header,
+    .sidebar,
+    .color-selector,
+    .pagination,
+    .cta-button {
+        display: none;
+    }
+    
+    .main-layout {
+        grid-template-columns: 1fr;
+    }
+    
+    .post-card,
+    .post-content {
+        border: 1px solid #ddd;
+        box-shadow: none;
+    }
+    
+    a {
+        text-decoration: underline;
+    }
+    
+    .post-title a {
+        color: black;
+    }
+}
+
+// Dark mode toggle adjustments
+@media (prefers-color-scheme: light) {
+    body[data-theme="auto"] {
+        --bg-primary: #ffffff;
+        --bg-secondary: #f8fafc;
+        --bg-tertiary: #f1f5f9;
+        --bg-card: rgba(0, 0, 0, 0.03);
+        --bg-glass: rgba(0, 0, 0, 0.05);
+        
+        --text-primary: #1e293b;
+        --text-secondary: #475569;
+        --text-muted: #94a3b8;
+        
+        --border: rgba(0, 0, 0, 0.1);
+        --border-hover: rgba(0, 0, 0, 0.2);
+        
+        --gradient-bg: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    }
+    
+    body[data-theme="auto"]::before {
+        background: 
+            radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
+            radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.05) 0%, transparent 50%),
+            radial-gradient(circle at 40% 80%, rgba(6, 182, 212, 0.05) 0%, transparent 50%);
+    }
+}
+
+// High contrast mode
+@media (prefers-contrast: high) {
+    :root {
+        --border: rgba(255, 255, 255, 0.3);
+        --border-hover: rgba(255, 255, 255, 0.5);
+        --bg-card: rgba(255, 255, 255, 0.1);
+        --bg-glass: rgba(255, 255, 255, 0.15);
+    }
+    
+    .post-card,
+    .widget {
+        border-width: 2px;
+    }
+    
+    .tag {
+        border-width: 2px;
+    }
+}
+
+// Reduced motion
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    
+    .logo-icon {
+        animation: none;
+    }
+    
+    body::before {
+        animation: none;
+    }
+}

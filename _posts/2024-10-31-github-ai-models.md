@@ -1,10 +1,13 @@
 ---
-layout: single
+layout: post
 title: "GitHub AI Models usage in Java"
-author: nagul_meera
+date: 2024-10-31 10:00:00 +0000
+categories: [LLM, Gen AI]
+tags: [GitHub,LLM, AI Models]
 author_profile: true
+author: "nagul_meera"
 ---
-
+## GitHub AI Models usage in Java
 This simple Java code will demonstrate the usage of GitHub AI models through the Azure AI SDK, showcasing how to seamlessly integrate Microsoft's powerful AI infrastructure with GitHub's development ecosystem.
 
 

@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="main-layout">
+        <main class="posts-container">
+            <!-- Author Hero Section -->
+            <header class="author-hero">
+                {% include author-profile.html author=page.author show_bio=true show_posts=false %}
+                
+                {% assign author_posts = site.posts | where: "author", page.author_name %}
+                <div class="author-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">{{ author_posts.size }}</span>
+                        <span class="stat-label">Posts</span>
+                    </div>
+                    <div class="stat-item">
+                        {% assign total_words = 0 %}
+                        {% for post in author_posts %}
+                            {% assign total_words = total_words | plus: post.content | number_of_words %}
+                        {% endfor %}
+                        <span class="stat-number">{{ total_words | divided_by: 1000 }}k</span>
+                        <span class="stat-label">Words</span>
+                    </div>
+                    <div class="stat-item">
+                        {% assign first_post = author_posts | last %}
+                        <span class="stat-number">{{ first_post.date | date: "%Y" }}</span>
+                        <span class="stat-label">Since</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Posts by Author -->
+            <section class="author-posts">
+                <h2>Posts by {{ page.author_name }}</h2>
+                
+                {% for post in author_posts %}
+                    {% include post-card.html %}
+                {% endfor %}
+
+                {% if author_posts.size == 0 %}
+                    <div class="no-posts">
+                        <p>No posts found by this author yet.</p>
+                        <a href="{{ '/' | relative_url }}" class="btn">← Back to Home</a>
+                    </div>
+                {% endif %}
+            </section>
+        </main>
+
+        {% include sidebar.html %}
+    </div>
+</div>

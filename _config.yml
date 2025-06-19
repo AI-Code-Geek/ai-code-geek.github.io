@@ -1,28 +1,130 @@
-repository: ai-code-geek/ai-code-geek.github.io
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+# Site settings
+title: "AI CODE GEEK"
+description: "🤖 AI Code Geek, Where AI meet code • Learn 📚 • Build ⚡ • Inspire 🚀"
+author: "aicodegeek Team"
+email: "hello@aicodegeek.com"
+baseurl: ""
+url: "https://aicodegeek.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 5
+paginate_path: "/page:num/"
+
+# Theme settings
+theme_color: "purple" # purple, cyan, orange, green
+show_excerpts: true
+posts_per_page: 5
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
+# Plugins
 plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
-  - jekyll-include-cache
-minimal_mistakes_skin: "dark"
-title: ""
-#subtitle: "Where AI Meets Code 🚀 Learn, Build, Inspire"
-masthead_title: false
-name: "AI Code Geek"
-logo: "/assets/images/logo.png"
-include:
-  - _pages
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Social links
+social:
+  github: "aicodegeek"
+  twitter: "aicodegeek"
+  linkedin: "aicodegeek"
+
+# Navigation - Header pages (these will appear in the main navigation)
+# List the actual file paths relative to the site root
+header_pages:
+  - "pages/about.md"
+  - "pages/categories.html"
+  - "pages/tags.html"
+  - "pages/archive.html"
+  - "pages/privacy.md"
+  - "pages/contact.md"
+
+# Site page definitions (for reference and metadata)
+pages:
+  # Main navigation pages
+  about:
+    title: "About"
+    description: "Learn more about aicodegeek and our mission"
+    permalink: "/about/"
+    layout: "page"
+    show_in_nav: true
+    order: 1
+  # Content organization pages
+  categories:
+    title: "Categories"
+    description: "Browse posts by category"
+    show_in_nav: true
+    order: 2
+  archive:
+    title: "archive"
+    description: "Browse all archive"
+    permalink: "/archive/"
+    layout: "page"
+    show_in_nav: false
+  tags:
+    title: "Tags"
+    description: "Browse all tags"
+    permalink: "/tags/"
+    layout: "page"
+    show_in_nav: false
+  # Legal pages
+  privacy:
+    title: "Privacy Policy"
+    description: "Our privacy policy and data protection practices"
+    permalink: "/privacy/"
+    layout: "page"
+    show_in_nav: false
+    show_in_footer: true
+  contact:
+    title: "Privacy Policy"
+    description: "Our privacy policy and data protection practices"
+    permalink: "/contact/"
+    layout: "page"
+    show_in_nav: true
+    show_in_footer: true
+  terms:
+    title: "Terms of Service"
+    description: "Terms and conditions for using our site"
+    permalink: "/terms/"
+    layout: "page"
+    show_in_nav: false
+    show_in_footer: true
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Sass settings
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
-      show_date: true
-      read_time: true
-  # _pages
+      layout: "post"
+      comments: true
   - scope:
       path: ""
-      type: pages
+      type: "pages"
     values:
-      layout: single
-      author_profile: true
+      layout: "page"

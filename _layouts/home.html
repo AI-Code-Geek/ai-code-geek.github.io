@@ -1,24 +1,54 @@
 ---
-layout: single
-author: nagul_meera
-author_profile: true
+layout: default
 ---
 
-<div class="home">
-    <h1>{{ page.title }}</h1>
-
-    <div class="hero-section">
-        <h2>Build Amazing AI Projects</h2>
-        <p>Learn to create chatbots, work with LLMs, and build AI applications</p>
+<section class="hero">
+    <div class="container">
+        <h1>{{ site.title | escape }}</h1>
+        <p>{{ site.description | escape }}</p>
+        <a href="#articles" class="cta-button">
+            Explore Articles
+            <span>→</span>
+        </a>
     </div>
+</section>
 
-    <div class="recent-posts">
-        <h3>Recent Posts</h3>
-        {% for post in site.posts limit:3 %}
-        <article>
-            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-            <p>{{ post.excerpt }}</p>
-        </article>
-        {% endfor %}
+<div class="container">
+    <div class="main-layout">
+        <main class="posts-container" id="articles">
+            {% if site.paginate %}
+                {% assign posts = paginator.posts %}
+            {% else %}
+                {% assign posts = site.posts %}
+            {% endif %}
+            
+            {% for post in posts %}
+                {% include post-card.html %}
+            {% endfor %}
+
+            {% if site.paginate %}
+                <div class="pagination">
+                    {% if paginator.previous_page %}
+                        <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Previous</a>
+                    {% endif %}
+                    
+                    {% for page in (1..paginator.total_pages) %}
+                        {% if page == paginator.page %}
+                            <span class="current">{{ page }}</span>
+                        {% elsif page == 1 %}
+                            <a href="{{ '/' | relative_url }}">{{ page }}</a>
+                        {% else %}
+                            <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+                        {% endif %}
+                    {% endfor %}
+                    
+                    {% if paginator.next_page %}
+                        <a href="{{ paginator.next_page_path | relative_url }}">Next &rarr;</a>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </main>
+
+        {% include sidebar.html %}
     </div>
 </div>

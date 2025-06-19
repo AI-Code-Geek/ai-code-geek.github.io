@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="main-layout">
+        <article class="post-content">
+            <!--<header class="post-header">
+                <div class="post-meta">
+                    {% if page.categories %}
+                        &lt;!&ndash;<span class="post-category">{{ page.categories | first | capitalize }}</span>
+                        <span>•</span>&ndash;&gt;
+                    {% endif %}
+                    <time datetime="{{ page.date | date_to_xmlschema }}">
+                        {{ page.date | date: "%B %d, %Y" }}
+                    </time>
+                    {% if page.reading_time %}
+                        <span>•</span>
+                        <span>{{ page.reading_time }} min read</span>
+                    {% endif %}
+                </div>
+                
+                <h1 class="post-title">{{ page.title | escape }}</h1>
+                
+                {% if page.excerpt %}
+                   &lt;!&ndash; <p class="post-excerpt">{{ page.excerpt | strip_html }}</p>&ndash;&gt;
+                {% endif %}
+                
+                {% if page.tags %}
+                   &lt;!&ndash; <div class="post-tags">
+                        {% for tag in page.tags %}
+                            <a href="{{ '/tags/' | append: tag | slugify | relative_url }}" class="tag">{{ tag }}</a>
+                        {% endfor %}
+                    </div>&ndash;&gt;
+                {% endif %}
+            </header>-->
+
+            <div class="post-body">
+                {{ content }}
+            </div>
+
+            <footer class="post-footer">
+                {% if page.author_profile and page.author %}
+                <div class="post-author-section">
+                    <h4>About the Author</h4>
+                    {% include author-profile.html author=page.author %}
+                </div>
+                {% elsif page.author %}
+                <div class="author-info">
+                    {% if page.author.name %}
+                    <p>Written by <strong>{{ page.author.name }}</strong></p>
+                    {% else %}
+                    <p>Written by <strong>{{ page.author }}</strong></p>
+                    {% endif %}
+                </div>
+                {% endif %}
+                
+                <div class="post-navigation">
+                    {% if page.previous %}
+                        <div class="nav-previous">
+                            <a href="{{ page.previous.url | relative_url }}" rel="prev">
+                                <span>&larr; Previous</span>
+                                <span>{{ page.previous.title | truncate: 50 }}</span>
+                            </a>
+                        </div>
+                    {% endif %}
+                    
+                    {% if page.next %}
+                        <div class="nav-next">
+                            <a href="{{ page.next.url | relative_url }}" rel="next">
+                                <span>Next &rarr;</span>
+                                <span>{{ page.next.title | truncate: 50 }}</span>
+                            </a>
+                        </div>
+                    {% endif %}
+                </div>
+            </footer>
+        </article>
+
+        {% include sidebar.html %}
+    </div>
+</div>

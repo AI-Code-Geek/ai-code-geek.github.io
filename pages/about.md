@@ -1,9 +1,9 @@
 ---
 permalink: /about/
 title: "About Me"
-layout: single
-author: nagul_meera
-author_profile: true
+layout: page
+description: "🤖 AI Code Geek, Where AI meet code • Learn 📚 • Build ⚡ • Inspire 🚀 - Discover coding tutorials and AI insights."
+---
 ---
 ![About](/docs/assets/images/2025/june/about.png)
 
@@ -15,8 +15,6 @@ With a deep curiosity for **automation, AI-driven solutions, and innovation**, I
 - 🚀 **Automation & Coding** – How AI integrates into workflows, tools, and development processes.
 - 📖 **Technical Blogging** – In-depth articles on AI advancements, trends, and best practices.
 - 🎨 **Creative AI Applications** – Exploring how AI intersects with storytelling, design, and innovation.
-
-![Writing & AI](https://another-image-link.com)
 
 ### My Philosophy
 

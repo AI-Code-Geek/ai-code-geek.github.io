@@ -1,17 +1,15 @@
+# _data/authors.yml
+# Author profiles for the blog
 nagul_meera:
-  name        : "Nagul Meera Mahankali"
-  bio         : "Tech Geek"
-  avatar      : "/assets/images/author.jpg"
-  links:
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-in"
-      url: "https://linkedin.com/in/liferaysavvy/"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:meera.success@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://aicodegeek.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/meera.prince"
+  name: "Nagul Meera Mahankali"
+  bio: "Tech Geek"
+  avatar: "/assets/images/author.jpg"
+  job_title: "Lead Software Engineer"
+  company: ""
+  location: "Plano, TX"
+  social:
+    github: "ai-code-geek"
+    twitter: "meera.prince"
+    linkedin: "liferaysavvy"
+  website: "https://aicodegeek.com"
+  email: "mailto:meera.success@gmail.com"

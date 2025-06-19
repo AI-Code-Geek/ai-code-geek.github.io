@@ -1,9 +1,16 @@
 ---
-layout: single
+layout: post
 title: "🦙 Ollama: Local AI Model Platform"
-author: nagul_meera
+date: 2025-06-18 10:00:00 +0000
+categories: [LLM, Gen AI]
+tags: [Ollama, LLM, AI Models]
+author: "nagul_meera"
 author_profile: true
+reading_time: 8
+excerpt: "Ollama is an application platform that allows you to run AI models locally on your machine. This provides a convenient way for AI developers and enthusiasts to start exploring and building LLM applications without relying on external services."
 ---
+## 🦙 Ollama: Local AI Model Platform
+
 Ollama is an application platform that allows you to run AI models locally on your machine. This provides a convenient way for AI developers and enthusiasts to start exploring and building LLM applications without relying on external services.
 
 ### Key Benefits

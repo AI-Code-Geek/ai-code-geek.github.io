@@ -1,0 +1,327 @@
+---
+layout: page
+title:
+permalink: /tags/
+description: "Browse all tags used in blog posts"
+---
+
+<div class="tags-hero">
+    <h1>🏷️ Browse by Tags</h1>
+    <p>Discover content through our tag system</p>
+</div>
+
+{% if site.tags.size > 0 %}
+
+<!-- Tag Cloud Section -->
+<section class="tags-cloud-section">
+    <h2>Tag Cloud</h2>
+    <div class="tags-cloud">
+        {% comment %}Create a sorted array of tag names first{% endcomment %}
+        {% assign tag_names = site.tags | map: 'first' | sort %}
+        {% assign max_count = 0 %}
+        {% for tag_name in tag_names %}
+            {% assign tag_posts = site.tags[tag_name] %}
+            {% assign tag_size = tag_posts | size %}
+            {% if tag_size > max_count %}
+                {% assign max_count = tag_size %}
+            {% endif %}
+        {% endfor %}
+        
+        {% if max_count > 0 %}
+            {% for tag_name in tag_names %}
+                {% assign tag_posts = site.tags[tag_name] %}
+                {% assign tag_size = tag_posts | size %}
+                {% assign relative_size = tag_size | times: 100 | divided_by: max_count %}
+                {% assign font_size = relative_size | times: 0.8 | plus: 80 %}
+                
+                <a href="{{ '/tags/' | append: tag_name | slugify | relative_url }}" 
+                   class="tag-cloud-item" 
+                   style="font-size: {{ font_size }}%; opacity: {{ relative_size | times: 0.3 | plus: 70 | divided_by: 100.0 }};"
+                   title="{{ tag_size }} {% if tag_size == 1 %}post{% else %}posts{% endif %} tagged with '{{ tag_name }}'">
+                    {{ tag_name }}
+                    <span class="tag-count">({{ tag_size }})</span>
+                </a>
+            {% endfor %}
+        {% endif %}
+    </div>
+</section>
+
+<!-- Popular Tags Section -->
+<section class="popular-tags-section">
+    <h2>Most Popular Tags</h2>
+    <div class="popular-tags-grid">
+        {% comment %}Sort tags by post count manually{% endcomment %}
+        {% assign popular_tags = "" | split: "," %}
+        
+        {% comment %}Create array of tags with their sizes for sorting{% endcomment %}
+        {% for tag in site.tags %}
+            {% assign tag_name = tag[0] %}
+            {% assign tag_size = tag[1] | size %}
+            {% comment %}Pad the size with zeros for proper sorting{% endcomment %}
+            {% assign padded_size = "000" | append: tag_size %}
+            {% assign padded_size = padded_size | slice: -3, 3 %}
+            {% assign tag_entry = padded_size | append: "|" | append: tag_name %}
+            {% assign popular_tags = popular_tags | push: tag_entry %}
+        {% endfor %}
+        
+        {% comment %}Sort by padded size (descending) and take top 8{% endcomment %}
+        {% assign sorted_popular_tags = popular_tags | sort | reverse %}
+        
+        {% for tag_entry in sorted_popular_tags limit: 8 %}
+            {% assign tag_parts = tag_entry | split: "|" %}
+            {% assign tag_name = tag_parts[1] %}
+            {% assign tag_posts = site.tags[tag_name] %}
+            {% assign tag_size = tag_posts | size %}
+            
+            <div class="popular-tag-card">
+                <div class="tag-header">
+                    <h3>
+                        <a href="{{ '/tags/' | append: tag_name | slugify | relative_url }}">
+                            {{ tag_name }}
+                        </a>
+                    </h3>
+                    <span class="tag-badge">{{ tag_size }}</span>
+                </div>
+                
+                <div class="tag-description">
+                    {% case tag_name %}
+                        {% when 'JavaScript' %}
+                            <p>Modern JavaScript development, ES6+, frameworks, and best practices.</p>
+                        {% when 'React' %}
+                            <p>React.js tutorials, hooks, components, and state management.</p>
+                        {% when 'CSS' %}
+                            <p>Styling techniques, layouts, animations, and modern CSS features.</p>
+                        {% when 'Design' %}
+                            <p>UI/UX design principles, trends, and creative inspiration.</p>
+                        {% when 'Tutorial' %}
+                            <p>Step-by-step guides and educational content.</p>
+                        {% when 'Performance' %}
+                            <p>Web performance optimization and best practices.</p>
+                        {% when 'AI' %}
+                            <p>Artificial intelligence, machine learning, and automation.</p>
+                        {% when 'Web Dev' %}
+                            <p>General web development topics and industry insights.</p>
+                        {% else %}
+                            <p>Explore posts and articles tagged with {{ tag_name | downcase }}.</p>
+                    {% endcase %}
+                </div>
+                
+                <div class="tag-preview">
+                    <span class="preview-label">Recent posts:</span>
+                    <ul class="tag-post-list">
+                        {% for post in tag_posts limit: 3 %}
+                            <li>
+                                <a href="{{ post.url | relative_url }}">{{ post.title | truncate: 40 }}</a>
+                                <time datetime="{{ post.date | date_to_xmlschema }}">
+                                    {{ post.date | date: "%b %d" }}
+                                </time>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                
+                <div class="tag-footer">
+                    <a href="{{ '/tags/' | append: tag_name | slugify | relative_url }}" class="tag-link">
+                        View all {{ tag_size }} posts →
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- All Tags Alphabetical List -->
+<section class="all-tags-section">
+    <h2>All Tags (Alphabetical)</h2>
+    <div class="tags-alphabet">
+        {% assign alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" | split: "" %}
+        {% assign tag_names = site.tags | map: 'first' | sort %}
+        {% for letter in alphabet %}
+            {% assign has_tags = false %}
+            {% for tag_name in tag_names %}
+                {% assign first_letter = tag_name | slice: 0 | upcase %}
+                {% if first_letter == letter %}
+                    {% assign has_tags = true %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+            
+            {% if has_tags %}
+                <a href="#letter-{{ letter }}" class="alphabet-link active">{{ letter }}</a>
+            {% else %}
+                <span class="alphabet-link inactive">{{ letter }}</span>
+            {% endif %}
+        {% endfor %}
+    </div>
+    
+    <div class="tags-alphabetical">
+        {% assign current_letter = "" %}
+        {% for tag_name in tag_names %}
+            {% assign tag_posts = site.tags[tag_name] %}
+            {% assign tag_size = tag_posts | size %}
+            {% assign first_letter = tag_name | slice: 0 | upcase %}
+            
+            {% if first_letter != current_letter %}
+                {% if current_letter != "" %}
+                    </div> <!-- Close previous letter group -->
+                {% endif %}
+                {% assign current_letter = first_letter %}
+                <div class="letter-group" id="letter-{{ current_letter }}">
+                    <h3 class="letter-header">{{ current_letter }}</h3>
+            {% endif %}
+            
+            <div class="tag-item">
+                <a href="{{ '/tags/' | append: tag_name | slugify | relative_url }}" class="tag-name">
+                    {{ tag_name }}
+                </a>
+                <span class="tag-meta">
+                    <span class="tag-count">{{ tag_size }}</span>
+                    {% if tag_size == 1 %}post{% else %}posts{% endif %}
+                </span>
+                <div class="tag-posts-preview">
+                    {% for post in tag_posts limit: 2 %}
+                        <a href="{{ post.url | relative_url }}" class="preview-post">{{ post.title }}</a>
+                    {% endfor %}
+                    {% if tag_size > 2 %}
+                        <span class="more-posts">and {{ tag_size | minus: 2 }} more...</span>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+        
+        {% if tag_names.size > 0 %}
+            </div> <!-- Close last letter group -->
+        {% endif %}
+    </div>
+</section>
+
+<!-- Tags Statistics -->
+<section class="tags-stats">
+    <h2>Tag Statistics</h2>
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-number">{{ site.tags.size }}</div>
+            <div class="stat-label">Total Tags</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">{{ site.posts.size }}</div>
+            <div class="stat-label">Total Posts</div>
+        </div>
+        <div class="stat-card">
+            {% assign total_tag_count = 0 %}
+            {% for tag in site.tags %}
+                {% assign total_tag_count = total_tag_count | plus: tag[1].size %}
+            {% endfor %}
+            {% if site.posts.size > 0 %}
+                {% assign avg_tags = total_tag_count | divided_by: site.posts.size %}
+            {% else %}
+                {% assign avg_tags = 0 %}
+            {% endif %}
+            <div class="stat-number">{{ avg_tags }}</div>
+            <div class="stat-label">Avg Tags per Post</div>
+        </div>
+        <div class="stat-card">
+            {% if max_count %}
+                <div class="stat-number">{{ max_count }}</div>
+            {% else %}
+                <div class="stat-number">0</div>
+            {% endif %}
+            <div class="stat-label">Most Used Tag</div>
+        </div>
+    </div>
+</section>
+
+<!-- Search Tags -->
+<section class="tag-search">
+    <h2>Search Tags</h2>
+    <div class="search-container">
+        <input type="text" 
+               id="tag-search-input" 
+               class="tag-search-input" 
+               placeholder="Search for tags..." 
+               autocomplete="off">
+        <div id="tag-search-results" class="tag-search-results"></div>
+    </div>
+</section>
+
+<script>
+// Tag search functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('tag-search-input');
+    const searchResults = document.getElementById('tag-search-results');
+    
+    // Collect all tags for search
+    const allTags = [
+        {% assign tag_names = site.tags | map: 'first' | sort %}
+        {% for tag_name in tag_names %}
+        {
+            name: "{{ tag_name | escape }}",
+            count: {{ site.tags[tag_name] | size }},
+            url: "{{ '/tags/' | append: tag_name | slugify | relative_url }}"
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ];
+    
+    searchInput.addEventListener('input', function() {
+        const query = this.value.toLowerCase().trim();
+        
+        if (query.length < 2) {
+            searchResults.style.display = 'none';
+            return;
+        }
+        
+        const matches = allTags.filter(tag => 
+            tag.name.toLowerCase().includes(query)
+        ).slice(0, 8);
+        
+        if (matches.length > 0) {
+            searchResults.innerHTML = matches.map(tag => `
+                <a href="${tag.url}" class="search-result-tag">
+                    <span class="tag-name">${tag.name}</span>
+                    <span class="tag-count">(${tag.count})</span>
+                </a>
+            `).join('');
+            searchResults.style.display = 'block';
+        } else {
+            searchResults.innerHTML = '<div class="no-results">No tags found</div>';
+            searchResults.style.display = 'block';
+        }
+    });
+    
+    // Hide results when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.search-container')) {
+            searchResults.style.display = 'none';
+        }
+    });
+    
+    // Smooth scrolling for alphabet links
+    document.querySelectorAll('.alphabet-link.active').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+});
+</script>
+
+{% else %}
+
+<!-- No Tags State -->
+<div class="no-tags">
+    <h2>No tags yet</h2>
+    <p>Tags will appear here as you add them to your posts. Start by adding tags to your post front matter:</p>
+    <div class="example-code">
+        <pre><code>---
+layout: post
+title: "Your Post Title"
+tags: [JavaScript, Tutorial, Web Development]
+---</code></pre>
+    </div>
+    <a href="{{ '/' | relative_url }}" class="btn">← Back to Home</a>
+</div>
+
+{% endif %}

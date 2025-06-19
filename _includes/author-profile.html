@@ -1,0 +1,212 @@
+{% comment %}
+Author profile component
+Usage: {% include author-profile.html author="author_key" show_bio=true %}
+{% endcomment %}
+
+{% comment %} Get author key from various sources {% endcomment %}
+{% assign author_key = include.author | default: page.author | default: "default" %}
+
+{% comment %} Handle different author key formats {% endcomment %}
+{% if author_key %}
+{% assign author_key_clean = author_key | strip | downcase | replace: " ", "-" | slugify %}
+{% else %}
+{% assign author_key_clean = "default" %}
+{% endif %}
+
+{% comment %} Try to get author data from multiple sources {% endcomment %}
+{% assign author_data = nil %}
+
+{% comment %} First try with the cleaned key {% endcomment %}
+{% if site.data.authors[author_key_clean] %}
+{% assign author_data = site.data.authors[author_key_clean] %}
+{% comment %} Then try with original key {% endcomment %}
+{% elsif site.data.authors[author_key] %}
+{% assign author_data = site.data.authors[author_key] %}
+{% comment %} Finally try default {% endcomment %}
+{% elsif site.data.authors["default"] %}
+{% assign author_data = site.data.authors["default"] %}
+{% endif %}
+
+{% comment %} Debug info (remove in production) {% endcomment %}
+{% comment %}
+<div style="background: #f0f0f0; padding: 10px; margin: 10px 0; font-size: 12px;">
+    <strong>Debug Info:</strong><br>
+    Original author key: {{ include.author | default: page.author | default: "none" }}<br>
+    Cleaned author key: {{ author_key_clean }}<br>
+    Author data found: {{ author_data != nil }}<br>
+    Available authors: {{ site.data.authors | map: "first" | join: ", " }}
+</div>
+{% endcomment %}
+
+{% if author_data %}
+<div class="author-profile{% if include.compact %} author-profile-compact{% endif %}">
+    <div class="author-avatar">
+        {% if author_data.avatar %}
+        <img src="{{ author_data.avatar | relative_url }}"
+             alt="{{ author_data.name | default: 'Author' }}"
+             class="avatar-image"
+             loading="lazy">
+        {% else %}
+        <div class="avatar-placeholder">
+            {{ author_data.name | default: 'A' | slice: 0 }}
+        </div>
+        {% endif %}
+
+        {% if author_data.job_title and include.show_status != false %}
+        <div class="author-status">
+            <span class="status-indicator"></span>
+            <span class="status-text">Available</span>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="author-info">
+        <div class="author-header">
+            <h3 class="author-name">{{ author_data.name | default: "Unknown Author" }}</h3>
+
+            {% if author_data.job_title %}
+            <p class="author-title">
+                {{ author_data.job_title }}
+                {% if author_data.company %}
+                at
+                {% if author_data.company_url %}
+                <a href="{{ author_data.company_url }}" target="_blank" rel="noopener">
+                    {{ author_data.company }}
+                </a>
+                {% else %}
+                {{ author_data.company }}
+                {% endif %}
+                {% endif %}
+            </p>
+            {% endif %}
+
+            {% if author_data.location %}
+            <p class="author-location">
+                <span class="location-icon">📍</span>
+                {{ author_data.location }}
+            </p>
+            {% endif %}
+        </div>
+
+        {% if author_data.bio and include.show_bio != false %}
+        <p class="author-bio">{{ author_data.bio }}</p>
+        {% endif %}
+
+        {% if author_data.social and author_data.social.size > 0 %}
+        <div class="author-social">
+            {% for social in author_data.social %}
+            {% if social.size == 2 %}
+            {% assign platform = social[0] %}
+            {% assign username = social[1] %}
+            {% else %}
+            {% assign platform = social.platform %}
+            {% assign username = social.username %}
+            {% endif %}
+
+            {% if platform and username %}
+            {% assign social_url = "" %}
+            {% assign social_icon = "" %}
+
+            {% case platform %}
+            {% when "github" %}
+            {% assign social_url = "https://github.com/" | append: username %}
+            {% assign social_icon = "🐙" %}
+            {% when "twitter" %}
+            {% assign social_url = "https://twitter.com/" | append: username %}
+            {% assign social_icon = "🐦" %}
+            {% when "linkedin" %}
+            {% assign social_url = "https://linkedin.com/in/" | append: username %}
+            {% assign social_icon = "💼" %}
+            {% when "instagram" %}
+            {% assign social_url = "https://instagram.com/" | append: username %}
+            {% assign social_icon = "📸" %}
+            {% when "dribbble" %}
+            {% assign social_url = "https://dribbble.com/" | append: username %}
+            {% assign social_icon = "🏀" %}
+            {% when "youtube" %}
+            {% assign social_url = "https://youtube.com/@" | append: username %}
+            {% assign social_icon = "📺" %}
+            {% when "medium" %}
+            {% assign social_url = "https://medium.com/@" | append: username %}
+            {% assign social_icon = "📝" %}
+            {% when "dev" %}
+            {% assign social_url = "https://dev.to/" | append: username %}
+            {% assign social_icon = "👩‍💻" %}
+            {% endcase %}
+
+            {% if social_url != "" %}
+            <a href="{{ social_url }}"
+               target="_blank"
+               rel="noopener"
+               class="social-link social-{{ platform }}"
+               title="{{ platform | capitalize }}: @{{ username }}">
+                <span class="social-icon">{{ social_icon }}</span>
+                <span class="social-username">@{{ username }}</span>
+            </a>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+
+            {% if author_data.website %}
+            <a href="{{ author_data.website }}"
+               target="_blank"
+               rel="noopener"
+               class="social-link social-website"
+               title="Website: {{ author_data.website }}">
+                <span class="social-icon">🌐</span>
+                <span class="social-username">Website</span>
+            </a>
+            {% endif %}
+
+            {% if author_data.email %}
+            <a href="mailto:{{ author_data.email }}"
+               class="social-link social-email"
+               title="Email: {{ author_data.email }}">
+                <span class="social-icon">✉️</span>
+                <span class="social-username">Email</span>
+            </a>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        {% if include.show_posts != false %}
+        {% comment %} Try different ways to match posts with authors {% endcomment %}
+        {% assign author_posts = site.posts | where: "author", author_data.name %}
+        {% if author_posts.size == 0 %}
+        {% assign author_posts = site.posts | where: "author", author_key %}
+        {% endif %}
+        {% if author_posts.size == 0 %}
+        {% assign author_posts = site.posts | where: "author", author_key_clean %}
+        {% endif %}
+
+        {% if author_posts.size > 0 %}
+        <div class="author-posts-count">
+            <a href="{{ '/authors/' | append: author_key_clean | relative_url }}" class="posts-link">
+                {% if author_posts.size == 1 %}
+                1 post by {{ author_data.name }}
+                {% else %}
+                {{ author_posts.size }} posts by {{ author_data.name }}
+                {% endif %}
+                <span class="arrow">→</span>
+            </a>
+        </div>
+        {% endif %}
+        {% endif %}
+    </div>
+</div>
+{% else %}
+{% comment %} Fallback when no author data is found {% endcomment %}
+<div class="author-profile author-profile-fallback">
+    <div class="author-info">
+        <h3 class="author-name">
+            {% if include.author %}
+            {{ include.author | replace: "-", " " | replace: "_", " " | capitalize }}
+            {% elsif page.author %}
+            {{ page.author | replace: "-", " " | replace: "_", " " | capitalize }}
+            {% else %}
+            Unknown Author
+            {% endif %}
+        </h3>
+    </div>
+</div>
+{% endif %}

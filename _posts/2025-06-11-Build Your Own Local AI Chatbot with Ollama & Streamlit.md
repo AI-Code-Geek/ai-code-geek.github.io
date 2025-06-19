@@ -1,9 +1,13 @@
 ---
-layout: single
+layout: post
 title: "🤖 Build Your Own Local AI Chatbot with Ollama & Streamlit"
-author: nagul_meera
+date: 2025-06-11 10:00:00 +0000
+categories: [LLM, Gen AI]
+tags: [Ollama, LLM, AI Models]
 author_profile: true
+author: "nagul_meera"
 ---
+## 🤖 Build Your Own Local AI Chatbot with Ollama & Streamlit
 Blog will demonstrate how to build an AI chatbot using Ollama local models and Streamlit python library. This comprehensive tutorial walks you through creating a fully functional conversational AI application that runs entirely on your local environment, ensuring complete data privacy and eliminating the need for expensive API calls.
 ## Environment
 - **Windows Desktop**

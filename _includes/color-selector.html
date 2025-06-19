@@ -1,0 +1,37 @@
+<div class="color-selector">
+    <h4>Color Themes</h4>
+    <div class="color-options">
+        <div class="color-option {% if site.theme_color == 'purple' or site.theme_color == nil %}active{% endif %}" 
+             style="background: linear-gradient(135deg, #6366f1, #8b5cf6);" 
+             onclick="setColorScheme('purple')" 
+             title="Purple"
+             role="button"
+             tabindex="0"
+             onkeydown="if(event.key==='Enter') setColorScheme('purple')">
+        </div>
+        <div class="color-option {% if site.theme_color == 'cyan' %}active{% endif %}" 
+             style="background: linear-gradient(135deg, #06b6d4, #10b981);" 
+             onclick="setColorScheme('cyan')" 
+             title="Cyan"
+             role="button"
+             tabindex="0"
+             onkeydown="if(event.key==='Enter') setColorScheme('cyan')">
+        </div>
+        <div class="color-option {% if site.theme_color == 'orange' %}active{% endif %}" 
+             style="background: linear-gradient(135deg, #f59e0b, #ef4444);" 
+             onclick="setColorScheme('orange')" 
+             title="Orange"
+             role="button"
+             tabindex="0"
+             onkeydown="if(event.key==='Enter') setColorScheme('orange')">
+        </div>
+        <div class="color-option {% if site.theme_color == 'green' %}active{% endif %}" 
+             style="background: linear-gradient(135deg, #10b981, #059669);" 
+             onclick="setColorScheme('green')" 
+             title="Green"
+             role="button"
+             tabindex="0"
+             onkeydown="if(event.key==='Enter') setColorScheme('green')">
+        </div>
+    </div>
+</div>
