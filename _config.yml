@@ -5,7 +5,6 @@ author: "AI Code Geek Team"
 email: "meera.success@gmail.com"
 baseurl: ""
 url: "https://aicodegeek.com"
-
 # Build settings
 markdown: kramdown
 highlighter: rouge

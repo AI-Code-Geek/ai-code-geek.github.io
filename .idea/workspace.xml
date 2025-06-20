@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/humans.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/favicon/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,9 @@
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek-modern-theme\assets\images" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek-modern-theme" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek-theme\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\assets\images\favicon" />
     </key>
   </component>
   <component name="RunManager">
@@ -215,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750428393025</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1750442826093</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750442826093</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
