@@ -6,7 +6,7 @@ header {
     backdrop-filter: blur(20px);
     background: rgba(15, 15, 35, 0.8);
     border-bottom: 1px solid var(--border);
-    padding: $spacing-md 0;
+//    padding: $spacing-md 0;
 }
 
 .header-content {
@@ -256,7 +256,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: $spacing-lg;
-    width:100%;
     
     .nav-previous,
     .nav-next {

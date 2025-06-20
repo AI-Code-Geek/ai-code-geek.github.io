@@ -181,7 +181,7 @@ Usage: {% include author-profile.html author="author_key" show_bio=true %}
 
         {% if author_posts.size > 0 %}
         <div class="author-posts-count">
-            <a href="{{ '/authors/' | append: author_key_clean | relative_url }}" class="posts-link">
+            <a href="{{ '/about/'}}" class="posts-link">
                 {% if author_posts.size == 1 %}
                 1 post by {{ author_data.name }}
                 {% else %}

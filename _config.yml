@@ -2,7 +2,7 @@
 title: "AI CODE GEEK"
 description: "🤖 AI Code Geek, Where AI meet code • Learn 📚 • Build ⚡ • Inspire 🚀"
 author: "aicodegeek Team"
-email: "hello@aicodegeek.com"
+email: "meera.success@gmail.com"
 baseurl: ""
 url: "https://aicodegeek.github.io"
 
@@ -10,7 +10,7 @@ url: "https://aicodegeek.github.io"
 markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:year/:month/:day/:title/
-paginate: 5
+paginate: 3
 paginate_path: "/page:num/"
 
 # Theme settings
