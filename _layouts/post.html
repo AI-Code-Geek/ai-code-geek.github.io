@@ -5,11 +5,11 @@ layout: default
 <div class="container">
     <div class="main-layout">
         <article class="post-content">
-            <!--<header class="post-header">
+            <header class="post-header">
                 <div class="post-meta">
                     {% if page.categories %}
-                        &lt;!&ndash;<span class="post-category">{{ page.categories | first | capitalize }}</span>
-                        <span>•</span>&ndash;&gt;
+                        <span class="post-category">{{ page.categories | first | capitalize }}</span>
+                        <span>•</span>
                     {% endif %}
                     <time datetime="{{ page.date | date_to_xmlschema }}">
                         {{ page.date | date: "%B %d, %Y" }}
@@ -23,17 +23,17 @@ layout: default
                 <h1 class="post-title">{{ page.title | escape }}</h1>
                 
                 {% if page.excerpt %}
-                   &lt;!&ndash; <p class="post-excerpt">{{ page.excerpt | strip_html }}</p>&ndash;&gt;
+                   <p class="post-excerpt">{{ page.excerpt | strip_html }}</p>
                 {% endif %}
                 
                 {% if page.tags %}
-                   &lt;!&ndash; <div class="post-tags">
+                   <div class="post-tags">
                         {% for tag in page.tags %}
                             <a href="{{ '/tags/' | append: tag | slugify | relative_url }}" class="tag">{{ tag }}</a>
                         {% endfor %}
-                    </div>&ndash;&gt;
+                    </div>
                 {% endif %}
-            </header>-->
+            </header>
 
             <div class="post-body">
                 {{ content }}

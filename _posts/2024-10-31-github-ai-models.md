@@ -6,11 +6,10 @@ categories: [LLM, Gen AI]
 tags: [GitHub,LLM, AI Models]
 author_profile: true
 author: "nagul_meera"
+reading_time: 3
+excerpt: "This simple Java code will demonstrate the usage of GitHub AI models through the Azure AI SDK, showcasing how to seamlessly integrate Microsoft's powerful AI infrastructure with GitHub's development ecosystem."
 ---
-## GitHub AI Models usage in Java
 This simple Java code will demonstrate the usage of GitHub AI models through the Azure AI SDK, showcasing how to seamlessly integrate Microsoft's powerful AI infrastructure with GitHub's development ecosystem.
-
-
 ### Example of GitHub AI Models Usage
 #### Model : gpt-4o-mini
 
