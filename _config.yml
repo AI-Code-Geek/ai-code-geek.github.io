@@ -78,12 +78,11 @@ pages:
     show_in_nav: false
   # Legal pages
   privacy:
-    title: "Privacy Policy"
+    title: "Privacy"
     description: "Our privacy policy and data protection practices"
     permalink: "/privacy/"
     layout: "page"
     show_in_nav: false
-    show_in_footer: true
   contact:
     title: "Contact Us"
     description: "Contact Us"
