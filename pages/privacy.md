@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 
+title:
 permalink: /privacy/
-description: "Privacy policy"
+description: "Our privacy policy and data protection practices"
 ---
 
 # Privacy Policy
