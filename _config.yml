@@ -45,7 +45,7 @@ header_pages:
   - "pages/categories.html"
   - "pages/tags.html"
   - "pages/archive.html"
-  - "pages/privacy.md"
+#  - "pages/privacy.md"
   - "pages/contact.md"
 
 # Site page definitions (for reference and metadata)
