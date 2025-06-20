@@ -76,12 +76,13 @@
         <ul class="widget-list">
             {% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
             {% for month in posts_by_month limit: 6 %}
-                <li>
-                    <a href="{{ '/archive/'}}">
-                        {{ month.name }}
-                        <span class="count">{{ month.items | size }}</span>
-                    </a>
-                </li>
+            {% assign year = month.items.first.date | date: '%Y' %}
+            <li>
+                <a href="{{ '/archive/' | append: '#year-' | append: year | relative_url }}">
+                    {{ month.name }}
+                    <span class="count">{{ month.items | size }}</span>
+                </a>
+            </li>
             {% endfor %}
         </ul>
     </div>
