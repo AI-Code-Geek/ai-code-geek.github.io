@@ -2,29 +2,33 @@
     <div class="container">
         <div class="header-content">
             <a href="{{ '/' | relative_url }}" class="logo">
-                <img src="/assets/images/logo.png"  width="120px">
+                <img src="/assets/images/logo.png" width="120px" alt="{{ site.title }}">
             </a>
-            
+
             <nav>
                 <ul>
                     <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                    
+
                     {%- if site.header_pages -%}
-                        {%- for path in site.header_pages -%}
-                            {%- assign my_page = site.pages | where: "path", path | first -%}
-                            {%- if my_page.title -%}
-                                <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-                            {%- endif -%}
-                        {%- endfor -%}
-                    {%- else -%}
-                        {%- for path in page_paths -%}
-                            {%- assign my_page = site.pages | where: "path", path | first -%}
-                            {%- if my_page.title -%}
-                                <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-                            {%- endif -%}
-                        {%- endfor -%}
+                    {%- for path in site.header_pages -%}
+                    {%- assign my_page = site.pages | where: "path", path | first -%}
+                    {%- if my_page.title -%}
+                    {%- assign page_config = site.pages[path] -%}
+                    {%- if page_config.show_in_nav != false -%}
+                    <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
                     {%- endif -%}
-                    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">🌙</button>
+                    {%- endif -%}
+                    {%- endfor -%}
+                    {%- else -%}
+                    {%- for path in page_paths -%}
+                    {%- assign my_page = site.pages | where: "path", path | first -%}
+                    {%- if my_page.title and my_page.show_in_nav != false -%}
+                    <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+                    {%- endif -%}
+                    {%- endfor -%}
+                    {%- endif -%}
+
+                    <li><button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">🌙</button></li>
                 </ul>
             </nav>
         </div>
