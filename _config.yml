@@ -14,7 +14,7 @@ paginate: 3
 paginate_path: "/page:num/"
 
 # Theme settings
-theme_color: "purple" # purple, cyan, orange, green
+theme_color: "orange" # purple, cyan, orange, green
 show_excerpts: true
 posts_per_page: 5
 
