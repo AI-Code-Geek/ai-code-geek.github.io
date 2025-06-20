@@ -77,12 +77,12 @@ pages:
     layout: "page"
     show_in_nav: false
   # Legal pages
-  privacy:
-    title: "Privacy"
-    description: "Our privacy policy and data protection practices"
-    permalink: "/privacy/"
-    layout: "page"
-    show_in_nav: false
+#  privacy:
+#    title: "Privacy"
+#    description: "Our privacy policy and data protection practices"
+#    permalink: "/privacy/"
+#    layout: "page"
+#    show_in_nav: false
   contact:
     title: "Contact Us"
     description: "Contact Us"
