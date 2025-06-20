@@ -86,8 +86,8 @@ pages:
     show_in_nav: false
     show_in_footer: true
   contact:
-    title: "Privacy Policy"
-    description: "Our privacy policy and data protection practices"
+    title: "Contact Us"
+    description: "Contact Us"
     permalink: "/contact/"
     layout: "page"
     show_in_nav: true

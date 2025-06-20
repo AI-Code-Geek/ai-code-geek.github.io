@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2024-10-31-github-ai-models.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-10-31-github-ai-models.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-06-11-Build Your Own Local AI Chatbot with Ollama &amp; Streamlit.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-06-11-Build Your Own Local AI Chatbot with Ollama &amp; Streamlit.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-06-18-ollama-local-ai-model-platform.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-06-18-ollama-local-ai-model-platform.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750390541900</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1750427349308</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750427349308</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
