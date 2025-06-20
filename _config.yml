@@ -1,10 +1,10 @@
 # Site settings
 title: "AI CODE GEEK"
 description: "🤖 AI Code Geek, Where AI meet code • Learn 📚 • Build ⚡ • Inspire 🚀"
-author: "aicodegeek Team"
+author: "AI Code Geek Team"
 email: "meera.success@gmail.com"
 baseurl: ""
-url: "https://aicodegeek.github.io"
+url: "https://aicodegeek.com"
 
 # Build settings
 markdown: kramdown
@@ -111,6 +111,9 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - vendor/
+  - robots.txt
+  - README.md
 
 # Sass settings
 sass:

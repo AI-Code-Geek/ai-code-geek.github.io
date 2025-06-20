@@ -1,0 +1,12 @@
+/* TEAM */
+Developer: AI CODE GEEK Team
+Contact: hello [at] aicodegeek.com
+Twitter: @aicodegeek
+From: Global
+
+/* SITE */
+Last update: 2024/12/20
+Language: English
+Doctype: HTML5
+IDE: Claude Desktop, VS Code
+Technologies: Jekyll, GitHub Pages, AI-Assisted Development

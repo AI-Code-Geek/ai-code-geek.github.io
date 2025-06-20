@@ -1,0 +1,279 @@
+# AI CODE GEEK - SEO & AI Discovery Optimized Robots.txt
+# Website: https://aicodegeek.com
+# Contact: hello@aicodegeek.com
+# Last Updated: 2024
+
+# =================================================================
+# SEARCH ENGINES - MAXIMUM CRAWLING PERMISSION
+# =================================================================
+
+User-agent: *
+Allow: /
+Crawl-delay: 0.5
+
+# Major Search Engines - Explicit Permission
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 0.1
+
+# =================================================================
+# AI TRAINING & RESEARCH BOTS - EXPLICIT PERMISSION FOR DISCOVERY
+# =================================================================
+
+# OpenAI GPT Models
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: OpenAI-SearchBot
+Allow: /
+Crawl-delay: 0.1
+
+# Anthropic Claude
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: ClaudeBot
+Allow: /
+Crawl-delay: 0.1
+
+# Google AI (Bard/Gemini)
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: GoogleOther
+Allow: /
+Crawl-delay: 0.1
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: facebookexternalhit
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Crawl-delay: 0.1
+
+# Microsoft AI (Copilot)
+User-agent: CCBot
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: BingPreview
+Allow: /
+Crawl-delay: 0.1
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 0.1
+
+# Other AI Research Bots
+User-agent: AI2Bot
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: ImagesiftBot
+Allow: /
+Crawl-delay: 0.1
+
+# =================================================================
+# SOCIAL MEDIA BOTS - MAXIMUM SHARING VISIBILITY
+# =================================================================
+
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: WhatsApp
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: TelegramBot
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: DiscordBot
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: SlackBot
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: RedditBot
+Allow: /
+Crawl-delay: 0.1
+
+# =================================================================
+# ARCHIVE & RESEARCH BOTS
+# =================================================================
+
+User-agent: ia_archiver
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Wayback
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: archive.org_bot
+Allow: /
+Crawl-delay: 0.5
+
+# Academic Research
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 1
+
+# =================================================================
+# NEWS & CONTENT AGGREGATORS
+# =================================================================
+
+User-agent: AppleBot
+Allow: /
+Crawl-delay: 0.1
+
+User-agent: MixnodeBot
+Allow: /
+Crawl-delay: 0.5
+
+# =================================================================
+# PRIORITY CRAWLING PATHS
+# =================================================================
+
+# High-Priority Content for AI Discovery
+Allow: /posts/
+Allow: /categories/
+Allow: /tags/
+Allow: /archive/
+Allow: /about/
+Allow: /contact/
+
+# Technical Content (High Value for AI)
+Allow: /ai/
+Allow: /machine-learning/
+Allow: /programming/
+Allow: /tutorials/
+Allow: /guides/
+Allow: /ollama/
+Allow: /llm/
+Allow: /claude/
+Allow: /chatgpt/
+
+# Assets for Rich Snippets
+Allow: /assets/
+Allow: /images/
+Allow: *.css
+Allow: *.js
+Allow: *.json
+Allow: *.xml
+Allow: *.txt
+
+# Media Files
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
+Allow: *.webp
+Allow: *.ico
+Allow: *.pdf
+Allow: *.mp4
+Allow: *.webm
+
+# =================================================================
+# STRUCTURED DATA & API ENDPOINTS
+# =================================================================
+
+Allow: /api/
+Allow: /feed.xml
+Allow: /sitemap.xml
+Allow: /sitemap*.xml
+Allow: /.well-known/
+
+# =================================================================
+# RESTRICTED AREAS (Minimal Restrictions)
+# =================================================================
+
+# Admin areas only
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /_drafts/
+Disallow: /private/
+
+# Duplicate content prevention
+Disallow: /*?utm_*
+Disallow: /*?fbclid=*
+Disallow: /*?gclid=*
+
+# =================================================================
+# SITEMAPS & DISCOVERY
+# =================================================================
+
+# Primary Sitemap
+Sitemap: https://aicodegeek.com/sitemap.xml
+
+# Specialized Sitemaps
+Sitemap: https://aicodegeek.com/sitemap-posts.xml
+Sitemap: https://aicodegeek.com/sitemap-pages.xml
+Sitemap: https://aicodegeek.com/sitemap-categories.xml
+
+# RSS/Atom Feeds for Content Discovery
+Sitemap: https://aicodegeek.com/feed.xml
+Sitemap: https://aicodegeek.com/atom.xml
+
+# =================================================================
+# ADDITIONAL DISCOVERY HINTS
+# =================================================================
+
+# Host: aicodegeek.com
+# Request-rate: 1/1s
+# Visit-time: 0600-2400
+# Preferred-language: en
