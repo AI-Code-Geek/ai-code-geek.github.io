@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🚀 AI Blog Chat Agent - Intelligent Blog Content Assistant"
-date: 2025-06-11 10:00:00 +0000
+date: 2025-06-24 10:00:00 +0000
 categories: [LLM, Gen AI]
 tags: [Ollama, LLM, AI Models]
 author_profile: true
