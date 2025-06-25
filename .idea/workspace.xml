@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/_posts/2025-06-24-AI Blog Chat Agent - Intelligent Blog Content Assistant.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/images/2025/june/Intelligent-blog-bontent-assistant/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/images/2025/june/Intelligent-blog-bontent-assistant/blogchatbot.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2025-06-24-AI Blog Chat Agent - Intelligent Blog Content Assistant.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-06-24-AI Blog Chat Agent - Intelligent Blog Content Assistant.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750456973551</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1750810582947</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1750810582947</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -1,11 +1,14 @@
-# 🚀 AI Blog Chat Agent - Intelligent Blog Content Assistant
-
-## 💡 Transform Your Blog into an Interactive AI Experience
-
-Build a powerful AI-powered chat agent that understands and responds with your blog content using local AI models. No subscriptions required!
-
 ---
-
+layout: post
+title: "🚀 AI Blog Chat Agent - Intelligent Blog Content Assistant"
+date: 2025-06-11 10:00:00 +0000
+categories: [LLM, Gen AI]
+tags: [Ollama, LLM, AI Models]
+author_profile: true
+author: "nagul_meera"
+reading_time: 5
+excerpt: "Build a powerful AI-powered chat agent that understands and responds with your blog content using local AI models. No subscriptions required!"
+---
 ## 📋 Use Case
 
 Today I have experimented with Claude to build an AI Chatbot for my blog, and it successfully created a proper AI Chat agent which uses blog content and provides information sourced directly from the blog content.
