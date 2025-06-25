@@ -9,24 +9,24 @@ author: "nagul_meera"
 reading_time: 5
 excerpt: "Build a powerful AI-powered chat agent that understands and responds with your blog content using local AI models. No subscriptions required!"
 ---
-## 📋 Use Case
+### 📋 Use Case
 
 Today I have experimented with Claude to build an AI Chatbot for my blog, and it successfully created a proper AI Chat agent which uses blog content and provides information sourced directly from the blog content.
 
 ![Blog Chatbot Screenshot](/docs/assets/images/2025/june/Intelligent-blog-bontent-assistant/blogchatbot.gif)
-## ✨ Features
+### ✨ Features
 
 - 🌐 **Configurable Blog Website** - Chat agent with customizable blog website choice
 - 🏠 **Local AI Model** - Uses the Local AI Model Platform Ollama 3.2 - no paid subscription required
 - ⚡ **Lightweight Design** - Very lightweight chat agent, but extensible for more robust implementations through Claude interaction
 
-## 🛠️ Technologies/Languages/Tools
+### 🛠️ Technologies/Languages/Tools
 
 - 🐍 **Python** - Core development language
 - 🎨 **Streamlit** - User interface framework
 - 🧠 **Ollama** - Local AI model platform
 
-## 💬 Sample Prompt Used to Generate the Code
+### 💬 Sample Prompt Used to Generate the Code
 
 ### 📋 Copy This Prompt:
 
@@ -63,7 +63,7 @@ Finally, the chat should be able to export as markdown or PDF
 
 💡 **Tip:** You can edit the prompt and try it in different ways to customize the features.
 
-## 🚀 Installation and Usage
+### 🚀 Installation and Usage
 
 📝 Installation and usage details will be provided as part of Claude chat output with comprehensive instructions to run the AI Agent.
 
@@ -77,23 +77,23 @@ cd blog-ai-light-chat-agent
 streamlit run simple_blog_chat.py
 ```
 
-### 📋 Prerequisites
+#### 📋 Prerequisites
 
 - ✅ Python (should be installed before running)
 - ✅ Streamlit (should be installed before running)
 - 📦 Other required libraries will be suggested by Claude as part of `requirements.txt`
 
-## 📚 Additional Resources
+### 📚 Additional Resources
 
-### 🏠 Run Ollama Locally
+#### 🏠 Run Ollama Locally
 🔗 **[Ollama Local AI Model Platform](https://aicodegeek.com/2025/06/18/ollama-local-ai-model-platform)**
 > Learn how to set up and run Ollama on your local machine
 
-### 🤖 Streamlit Chatbot Tutorial
+#### 🤖 Streamlit Chatbot Tutorial
 🔗 **[Build Your Own Local AI Chatbot with Ollama & Streamlit](https://aicodegeek.com/2025/06/11/Build-Your-Own-Local-AI-Chatbot-with-Ollama-&-Streamlit)**
 > Step-by-step guide to creating your own AI chatbot
 
-## 🎯 Conclusion
+### 🎯 Conclusion
 
 🚀 We can accomplish amazing things with this kind of example, and I will be demonstrating more advanced implementations in my future articles. 
 
@@ -101,6 +101,6 @@ streamlit run simple_blog_chat.py
 
 ---
 
-### 🎉 Happy AI Coding with Claude Desktop!
+#### 🎉 Happy AI Coding with Claude Desktop!
 
 > 💡 **Pro Tip:** This is just the beginning! The possibilities are endless when you combine Claude's capabilities with local AI models and modern web frameworks.
