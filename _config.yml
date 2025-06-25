@@ -13,6 +13,7 @@ permalink: /:year/:month/:day/:title/
 paginate: 3
 paginate_path: "/page:num/"
 
+
 # Theme settings
 theme_color: "orange" # purple, cyan, orange, green
 show_excerpts: true
