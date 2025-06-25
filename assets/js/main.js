@@ -55,7 +55,7 @@ function applyTheme(theme) {
 
 // Color Scheme Management
 function initializeColorScheme() {
-    const savedScheme = localStorage.getItem('colorScheme') || 'purple';
+    const savedScheme = localStorage.getItem('colorScheme') || 'orange';
     const body = document.body;
     
     body.setAttribute('data-theme', savedScheme);

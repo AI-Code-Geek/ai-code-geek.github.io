@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/_posts/2025-06-24-AI Blog Chat Agent - Intelligent Blog Content Assistant.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/2025/june/Intelligent-blog-bontent-assistant/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/2025/june/Intelligent-blog-bontent-assistant/blogchatbot.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/favicon/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,20 +33,20 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/mythigs/LLMWorkSpace/python/ai-code-geek.github.io/assets/images/favicon&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/mythigs/LLMWorkSpace/python/ai-code-geek.github.io/docs/assets/images/2025/june/Intelligent-blog-bontent-assistant"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2025\june\Intelligent-blog-bontent-assistant" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\assets\images\favicon" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\assets\images" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\_posts" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek-modern-theme\assets\images" />
-      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek-modern-theme" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\assets\images\favicon" />
@@ -276,7 +279,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750454888934</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1750455757410</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1750455757410</updated>
+    </task>
+    <task id="LOCAL-00017" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1750456973551</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1750456973551</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
