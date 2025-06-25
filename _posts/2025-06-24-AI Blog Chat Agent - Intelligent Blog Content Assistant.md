@@ -14,6 +14,7 @@ excerpt: "Build a powerful AI-powered chat agent that understands and responds w
 I have experimented with Claude to build an AI Chatbot for my Blog Content Assistant, and it successfully created a proper AI Chat agent which uses blog content and provides information sourced directly from the blog content.
 
 ![Blog Chatbot Screenshot](/docs/assets/images/2025/june/Intelligent-blog-bontent-assistant/blogchatbot.gif)
+
 ### ✨ Features
 
 - 🌐 **Configurable Blog Website** - Chat agent with customizable blog website choice
@@ -28,7 +29,7 @@ I have experimented with Claude to build an AI Chatbot for my Blog Content Assis
 
 ### 💬 Sample Prompt Used to Generate the Code
 
-### 📋 Copy This Prompt:
+#### 📋 Copy This Prompt:
 
 ```
 You are an awesome AI Chat Assistant developer and I want to develop a chat agent for my blog website. When a user asks a question, it should provide details scraped from my blog.
