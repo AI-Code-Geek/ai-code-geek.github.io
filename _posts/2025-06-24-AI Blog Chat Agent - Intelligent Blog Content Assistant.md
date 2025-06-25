@@ -7,7 +7,7 @@ tags: [Ollama, LLM, AI Models]
 author_profile: true
 author: "nagul_meera"
 reading_time: 5
-excerpt: "Build a powerful AI-powered chat agent that understands and responds with your blog content using local AI models. No subscriptions required!"
+excerpt: "💡 Transform Your Blog into an Interactive AI Experience. Build a powerful AI-powered chat agent that understands and responds with your blog content using local AI models. No subscriptions required!"
 ---
 ### 📋 Use Case
 
