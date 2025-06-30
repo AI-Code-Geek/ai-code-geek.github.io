@@ -11,6 +11,8 @@ excerpt: "In previous blogs, we learned about RAG (Retrieval-Augmented Generatio
 ---
 ### 📚 Introduction
 
+![RAG2](/docs/assets/images/2025/june/rag2/1.png)
+
 In previous blogs, we learned about RAG (Retrieval-Augmented Generation) and discovered that there are two core concepts as part of preparing a knowledge base as a vector store: **embeddings** and **vectors**.
 
 There are many AI embedding models which we can use to generate embeddings and vectors. Before exploring those, we will try to understand how we can create vectors from a knowledge base such as text or content.

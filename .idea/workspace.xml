@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="Added RAG-2 blog">
+      <change afterPath="$PROJECT_DIR$/docs/assets/images/2025/june/rag2/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2025-06-11-Complete-Guide-tt-Vectors-and-TF-IDF-in-RAG-Systems.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-06-11-Complete-Guide-tt-Vectors-and-TF-IDF-in-RAG-Systems.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,16 +48,16 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/mythigs/LLMWorkSpace/python/ai-code-geek.github.io/_posts"
+    "last_opened_file_path": "C:/mythigs/LLMWorkSpace/python/ai-code-geek.github.io/docs/assets/images/2025/june/rag2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2025\june\rag2" />
+      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2025\june" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\_posts" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2025\june\Intelligent-blog-bontent-assistant" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\assets\images\favicon" />
-      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\assets\images" />
-      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek-modern-theme\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\assets\images\favicon" />
@@ -408,7 +410,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751240357105</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Added RAG-2 blog">
+      <option name="closed" value="true" />
+      <created>1751240459491</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1751240459491</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
