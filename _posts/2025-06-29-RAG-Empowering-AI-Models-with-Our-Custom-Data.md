@@ -44,6 +44,8 @@ The AI model processes the augmented prompt to generate accurate, contextually r
 
 Before diving deeper into RAG implementation, it's essential to understand two fundamental concepts:
 
+🔗 **[🚀 Complete Guide to Vectors and TF-IDF in RAG Systems](https://aicodegeek.com/2025/06/29/Complete-Guide-tt-Vectors-and-TF-IDF-in-RAG-Systems)**
+
 #### Embeddings
 Embeddings are sophisticated numerical representations that capture the semantic meaning of text, images, or audio content. These high-dimensional arrays of floating-point numbers encode relationships and similarities between different pieces of content, enabling machines to understand context and meaning in ways similar to human comprehension.
 

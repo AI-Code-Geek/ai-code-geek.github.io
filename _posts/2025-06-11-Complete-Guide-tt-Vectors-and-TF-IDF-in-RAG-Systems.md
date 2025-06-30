@@ -19,7 +19,7 @@ There are many AI embedding models which we can use to generate embeddings and v
 
 I am going to use Python to explain the concept of vectors using the **Term Frequency-Inverse Document Frequency (TF-IDF)** Python library.
 
-🔗 **[Mastering RAG: Empowering AI Models with Our Custom Data](https://aicodegeek.com/2025/06/29/RAG-Empowering-AI-Models-with-Our-Custom-Data)**
+🔗 **[🧠 Mastering RAG: Empowering AI Models with Our Custom Data](https://aicodegeek.com/2025/06/29/RAG-Empowering-AI-Models-with-Our-Custom-Data)**
 
 ### 🔍 Understanding TF-IDF
 
