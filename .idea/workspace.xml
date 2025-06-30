@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="Added RAG-2 blog">
-      <change afterPath="$PROJECT_DIR$/docs/assets/images/2025/june/rag2/1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-06-11-Complete-Guide-tt-Vectors-and-TF-IDF-in-RAG-Systems.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-06-11-Complete-Guide-tt-Vectors-and-TF-IDF-in-RAG-Systems.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -418,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751240459491</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added RAG-2 blog">
+      <option name="closed" value="true" />
+      <created>1751241736737</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1751241736737</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
