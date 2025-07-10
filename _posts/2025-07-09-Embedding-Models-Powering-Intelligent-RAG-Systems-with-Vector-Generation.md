@@ -342,8 +342,8 @@ print("=" * 80 + Colors.END)
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd <project-location>
+   git clone https://github.com/AI-Code-Geek/ollama-embeddings.git
+   cd ollama-embeddings
    ```
 
 2. **Install Python virtual environment**:

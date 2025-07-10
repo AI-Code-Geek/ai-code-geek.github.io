@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="Added RAG-2 blog">
-      <change afterPath="$PROJECT_DIR$/_posts/2025-07-09-Embedding-Models-Powering-Intelligent-RAG-Systems-with-Vector-Generation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/images/2025/july/embedding-models/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/images/2025/july/embedding-models/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/images/2025/july/embedding-models/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/images/2025/july/embedding-models/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/images/2025/july/embedding-models/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="Added RAG-2 bl🚀 Embedding Models: Powering Intelligent RAG Systems with Vector Generationog">
+      <change beforePath="$PROJECT_DIR$/_posts/2025-07-09-Embedding-Models-Powering-Intelligent-RAG-Systems-with-Vector-Generation.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-07-09-Embedding-Models-Powering-Intelligent-RAG-Systems-with-Vector-Generation.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -454,12 +448,21 @@
       <option name="project" value="LOCAL" />
       <updated>1751320078572</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Added RAG-2 bl🚀 Embedding Models: Powering Intelligent RAG Systems with Vector Generationog">
+      <option name="closed" value="true" />
+      <created>1752120121599</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1752120121599</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Added RAG-2 blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added RAG-2 blog" />
+    <MESSAGE value="Added RAG-2 bl Embedding Models: Powering Intelligent RAG Systems with Vector Generationog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added RAG-2 bl Embedding Models: Powering Intelligent RAG Systems with Vector Generationog" />
   </component>
 </project>
