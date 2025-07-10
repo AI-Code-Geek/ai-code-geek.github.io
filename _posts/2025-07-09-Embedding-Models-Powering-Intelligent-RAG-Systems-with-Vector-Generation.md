@@ -338,6 +338,10 @@ print("=" * 80 + Colors.END)
 
 ### Running the Example
 
+### 📁 Source Code Repository
+
+🔗 **[GitHub Repository - Ollama Embeddings Example](https://github.com/AI-Code-Geek/ollama-embeddings)**
+
 #### Git Repository Setup
 
 1. **Clone the repository**:

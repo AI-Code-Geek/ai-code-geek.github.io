@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="Added RAG-2 bl🚀 Embedding Models: Powering Intelligent RAG Systems with Vector Generationog">
+    <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="Embedding Models: Powering Intelligent RAG Systems with Vector Generation">
       <change beforePath="$PROJECT_DIR$/_posts/2025-07-09-Embedding-Models-Powering-Intelligent-RAG-Systems-with-Vector-Generation.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-07-09-Embedding-Models-Powering-Intelligent-RAG-Systems-with-Vector-Generation.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -456,13 +456,22 @@
       <option name="project" value="LOCAL" />
       <updated>1752120121599</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Embedding Models: Powering Intelligent RAG Systems with Vector Generation">
+      <option name="closed" value="true" />
+      <created>1752120712424</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1752120712424</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Added RAG-2 blog" />
     <MESSAGE value="Added RAG-2 bl Embedding Models: Powering Intelligent RAG Systems with Vector Generationog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added RAG-2 bl Embedding Models: Powering Intelligent RAG Systems with Vector Generationog" />
+    <MESSAGE value="Embedding Models: Powering Intelligent RAG Systems with Vector Generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Embedding Models: Powering Intelligent RAG Systems with Vector Generation" />
   </component>
 </project>
