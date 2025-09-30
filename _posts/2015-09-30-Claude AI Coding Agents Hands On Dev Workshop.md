@@ -13,7 +13,7 @@ excerpt: "A practical workshop demonstrating how to leverage Claude Code and AI-
 
 - [**Part 1: Claude + AI Coding Agents: Hands-On Dev Workshop (Part 1) 🚀**](https://youtu.be/Cky7ITTlhCQ){:target="_blank"}
 - [**Part 2: Claude + AI Coding Agents: Hands-On Dev Workshop (Part 2) 🚀**](https://youtu.be/9praXP2u_Zk){:target="_blank"}
-
+  [![Claude Code's New Sub-Agents Feature Is INSANE](/docs/assets/images/2025/sept/claude/2.png)](https://youtu.be/9praXP2u_Zk){:target="_blank"}
 ---
 
 ## Prerequisites
