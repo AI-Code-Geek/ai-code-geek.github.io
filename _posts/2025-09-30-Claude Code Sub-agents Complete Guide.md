@@ -9,7 +9,7 @@ author: "nagul_meera"
 reading_time: 5
 excerpt: "Claude Code Sub-agents are specialized AI assistants that revolutionize how you work with AI. Instead of handling every task with a single Claude instance, you can create dedicated experts for specific domains—each with their own system prompts, tools, and context windows."
 ---
-## 📺 Reference Videos
+## 📺 Tutorial Video
 📺 **[🚀 Claude Code's New Sub-Agents Feature Is INSANE!](https://youtu.be/OilfAlcvG8E){:target="_blank"}**
 [![Claude Code's New Sub-Agents Feature Is INSANE](/docs/assets/images/2025/sept/claude/1.png)](https://youtu.be/OilfAlcvG8E){:target="_blank"}
 ---

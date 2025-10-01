@@ -9,7 +9,7 @@ author: "nagul_meera"
 reading_time: 5
 excerpt: "A practical workshop demonstrating how to leverage Claude Code and AI-powered coding agents for modern software development. Learn to install and configure Claude Code CLI and IntelliJ plugin, create comprehensive development plans using AI assistance, and build a complete stock portfolio scanner application with technical indicators (Magic Formula, SMA, RSI, MACD) using Python, Streamlit, and Ollama. This hands-on session covers the entire workflow from requirements gathering to code implementation, showcasing how AI coding agents can accelerate development and enhance productivity."
 ---
-## 📺 Reference Videos
+## 📺 Tutorial Videos
 
 - [**Part 1: Claude + AI Coding Agents: Hands-On Dev Workshop (Part 1) 🚀**](https://youtu.be/Cky7ITTlhCQ){:target="_blank"}
 - [**Part 2: Claude + AI Coding Agents: Hands-On Dev Workshop (Part 2) 🚀**](https://youtu.be/9praXP2u_Zk){:target="_blank"}
