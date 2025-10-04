@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="AI Powered Coding Agents - Hands On Session">
-      <change afterPath="$PROJECT_DIR$/_posts/2025-10-01-Master Claude Code Build Intelligent Multi Agent Workflows.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/images/2025/sept/claude/3.png" afterDir="false" />
+    <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="Master Claude Code: Build Intelligent Multi-Agent Workflows">
+      <change afterPath="$PROJECT_DIR$/_posts/2025-10-02-ai-fundamentals-human-centered-introduction-to-machine-intelligence.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/assets/pdf/AI_Fundamentals_A_Tiny_Book.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,16 +48,16 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/mythigs/LLMWorkSpace/python/ai-code-geek.github.io/_posts"
+    "last_opened_file_path": "C:/mythigs/LLMWorkSpace/python/ai-code-geek.github.io/docs/assets/pdf"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\pdf" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\_posts" />
+      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2025\docs" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2025\sept\claude" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2025\august\claude-code" />
-      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2025\july\embdedding-models" />
-      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2025\june\rag2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\assets\images\favicon" />
@@ -114,6 +114,16 @@
     <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
       <option name="passParentEnvironments" value="true" />
       <option name="workspaceLocation" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="LiferayServerConfiguration" factoryName="Liferay Server">
+      <Liferay-Sever alternativeJrePath="" bundleLocation="" bundleType="" developerMode="true" gogoShellPort="11311" vmParameters="-Xmx2560m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m">
+        <envs>
+          <env name="PATH" value="$USER_HOME$/.jdks/openjdk-23.0.1/bin:C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\meera\.jpm\windows\bin;C:\Users\meera\.npm-packages;C:\Liferay\softwares\apache-maven-3.6.2\bin;C:\github-workspace\tools\jdk-17.0.10\bin;C:\Liferay\softwares\groovy-2.5.12\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Liferay\softwares\consul_1.9.6_windows_amd64;C:\Program Files\dotnet\;C:\github-workspace\tools\jdk-17.0.10\bin;C:\Users\meera\AppData\Roaming\Claude;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\meera\.jpm\windows\bin;C:\Program Files\nodejs\;C:\Users\meera\.npm-packages;C:\Liferay\softwares\apache-maven-3.6.2\bin;C:\github-workspace\tools\jdk-17.0.10\bin;C:\Liferay\softwares\groovy-2.5.12\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Liferay\softwares\consul_1.9.6_windows_amd64;C:\Program Files\dotnet\;C:\github-workspace\tools\jdk-17.0.10\bin;C:\Users\meera\AppData\Roaming\Claude;C:\Users\meera\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\meera\AppData\Local\Programs\Python\Python313\;C:\Ruby33-x64\bin;C:\Users\meera\AppData\Local\Microsoft\WindowsApps;;C:\User;C:\Users\meera\AppData\Roaming\npm;C:\Users\meera\AppData\Local\Programs\Ollama;C:\Users\meera\.dotnet\tools" />
+          <env name="JAVA_HOME" value="$USER_HOME$/.jdks/openjdk-23.0.1" />
+        </envs>
+        <module name="ai-code-geek-theme" />
+      </Liferay-Sever>
       <method v="2" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -480,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759270010043</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Master Claude Code: Build Intelligent Multi-Agent Workflows">
+      <option name="closed" value="true" />
+      <created>1759352295226</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1759352295226</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -489,6 +507,7 @@
     <MESSAGE value="Added RAG-2 bl Embedding Models: Powering Intelligent RAG Systems with Vector Generationog" />
     <MESSAGE value="Embedding Models: Powering Intelligent RAG Systems with Vector Generation" />
     <MESSAGE value="AI Powered Coding Agents - Hands On Session" />
-    <option name="LAST_COMMIT_MESSAGE" value="AI Powered Coding Agents - Hands On Session" />
+    <MESSAGE value="Master Claude Code: Build Intelligent Multi-Agent Workflows" />
+    <option name="LAST_COMMIT_MESSAGE" value="Master Claude Code: Build Intelligent Multi-Agent Workflows" />
   </component>
 </project>
