@@ -9,7 +9,7 @@ author: "nagul_meera"
 reading_time: 5
 excerpt: "Large Language Models (LLMs) are a type of artificial intelligence trained on massive amounts of text data to understand and generate human-like language. Think of them as extremely sophisticated pattern-matching systems that have read billions of documents."
 ---
-## 📺 Tutorial Videos
+## 📺 Tutorial Video
 
 - [**🤖 Working with LLMs – Part 1: Introduction to Language Models**](https://youtu.be/e3xCPN9QquU){:target="_blank"}
   [![Working with LLMs – Part 1: Introduction to Language Models](/docs/assets/images/2025/oct/llms/1.png)](https://youtu.be/9praXP2u_Zk){:target="_blank"}
