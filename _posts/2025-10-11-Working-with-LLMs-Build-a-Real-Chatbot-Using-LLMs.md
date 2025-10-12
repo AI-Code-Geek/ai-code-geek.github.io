@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🤖 Working with LLMs – Part 3: Build a Real Chatbot Using LLMs"
+title: "🤖 Working with LLMs – Build a Real Chatbot Using LLMs"
 date: 2025-10-11 10:00:00 +0000
 categories: [LLM, Gen AI, Ollama, Local AI Models]
 tags: [LLM, Gen AI, Ollama, Local AI Models]
