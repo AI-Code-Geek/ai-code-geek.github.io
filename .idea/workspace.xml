@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment=" Working with LLMs – Part 3: Build a Real Chatbot Using LLMs">
-      <change afterPath="$PROJECT_DIR$/_posts/2025-10-17-Working with LLMs - Build an AI Assistant Using Tool Calling.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="Working with LLMs Part 5: Build an AI Assistant Using Tool Calling" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -553,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760287639110</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Working with LLMs Part 5: Build an AI Assistant Using Tool Calling">
+      <option name="closed" value="true" />
+      <created>1760739266276</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1760739266276</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -567,6 +572,7 @@
     <MESSAGE value="Working with LLMs – Introduction to Language Models" />
     <MESSAGE value="Working with LLMs – Start Your LLM Journey with Ollama" />
     <MESSAGE value=" Working with LLMs – Part 3: Build a Real Chatbot Using LLMs" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Working with LLMs – Part 3: Build a Real Chatbot Using LLMs" />
+    <MESSAGE value="Working with LLMs Part 5: Build an AI Assistant Using Tool Calling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with LLMs Part 5: Build an AI Assistant Using Tool Calling" />
   </component>
 </project>

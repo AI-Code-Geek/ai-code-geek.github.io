@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🤖 Working with LLMs Part 5: Build an AI Assistant Using Tool Calling 🚀"
+title: "🤖 Working with LLMs - Build an AI Assistant Using Tool Calling 🚀"
 date: 2025-10-17 10:00:00 +0000
 categories: [LLM, Gen AI, Ollama, Local AI Models]
 tags: [LLM, Gen AI, Ollama, Local AI Models]
