@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="Working with LLMs – Start Your LLM Journey with Ollama">
-      <change afterPath="$PROJECT_DIR$/_posts/2025-10-11-Working-with-LLMs-Build-a-Real-Chatbot-Using-LLMs.md" afterDir="false" />
+    <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment=" Working with LLMs – Part 3: Build a Real Chatbot Using LLMs">
+      <change afterPath="$PROJECT_DIR$/_posts/2025-10-17-Working with LLMs - Build an AI Assistant Using Tool Calling.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +113,16 @@
     <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
       <option name="passParentEnvironments" value="true" />
       <option name="workspaceLocation" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="LiferayServerConfiguration" factoryName="Liferay Server">
+      <Liferay-Sever alternativeJrePath="" bundleLocation="" bundleType="" developerMode="true" gogoShellPort="11311" vmParameters="-Xmx2560m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m">
+        <envs>
+          <env name="PATH" value="$USER_HOME$/.jdks/openjdk-23.0.1/bin:C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\meera\.jpm\windows\bin;C:\Users\meera\.npm-packages;C:\Liferay\softwares\apache-maven-3.6.2\bin;C:\github-workspace\tools\jdk-17.0.10\bin;C:\Liferay\softwares\groovy-2.5.12\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Liferay\softwares\consul_1.9.6_windows_amd64;C:\Program Files\dotnet\;C:\github-workspace\tools\jdk-17.0.10\bin;C:\Users\meera\AppData\Roaming\Claude;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\meera\.jpm\windows\bin;C:\Program Files\nodejs\;C:\Users\meera\.npm-packages;C:\Liferay\softwares\apache-maven-3.6.2\bin;C:\github-workspace\tools\jdk-17.0.10\bin;C:\Liferay\softwares\groovy-2.5.12\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Liferay\softwares\consul_1.9.6_windows_amd64;C:\Program Files\dotnet\;C:\github-workspace\tools\jdk-17.0.10\bin;C:\Users\meera\AppData\Roaming\Claude;C:\Users\meera\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\meera\AppData\Local\Programs\Python\Python313\;C:\Ruby33-x64\bin;C:\Users\meera\AppData\Local\Microsoft\WindowsApps;;C:\User;C:\Users\meera\AppData\Roaming\npm;C:\Users\meera\AppData\Local\Programs\Ollama;C:\Users\meera\.dotnet\tools" />
+          <env name="JAVA_HOME" value="$USER_HOME$/.jdks/openjdk-23.0.1" />
+        </envs>
+        <module name="ai-code-geek-theme" />
+      </Liferay-Sever>
       <method v="2" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -519,7 +529,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760143257756</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary=" Working with LLMs – Part 3: Build a Real Chatbot Using LLMs">
+      <option name="closed" value="true" />
+      <created>1760192820238</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1760192820238</updated>
+    </task>
+    <task id="LOCAL-00047" summary=" Working with LLMs – Part 3: Build a Real Chatbot Using LLMs">
+      <option name="closed" value="true" />
+      <created>1760192834104</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1760192834104</updated>
+    </task>
+    <task id="LOCAL-00048" summary=" Working with LLMs – Part 3: Build a Real Chatbot Using LLMs">
+      <option name="closed" value="true" />
+      <created>1760287639110</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1760287639110</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -532,6 +566,7 @@
     <MESSAGE value="AI Fundamentals - A Human-Centered Introduction to Machine Intelligence" />
     <MESSAGE value="Working with LLMs – Introduction to Language Models" />
     <MESSAGE value="Working with LLMs – Start Your LLM Journey with Ollama" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with LLMs – Start Your LLM Journey with Ollama" />
+    <MESSAGE value=" Working with LLMs – Part 3: Build a Real Chatbot Using LLMs" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Working with LLMs – Part 3: Build a Real Chatbot Using LLMs" />
   </component>
 </project>
