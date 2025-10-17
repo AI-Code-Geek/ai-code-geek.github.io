@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🤖 Working with LLMs – Start Your LLM Journey with Ollama"
+title: "🤖 Working with LLMs Part 2 – Start Your LLM Journey with Ollama"
 date: 2025-10-10 10:00:00 +0000
 categories: [LLM, Gen AI, Ollama, Local AI Models]
 tags: [LLM, Gen AI, Ollama, Local AI Models]

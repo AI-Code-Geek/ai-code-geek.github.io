@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🤖 Working with LLMs – Introduction to Language Models"
+title: "🤖 Working with LLMs Part 1 – Introduction to Language Models"
 date: 2025-10-07 10:00:00 +0000
 categories: [LLM, Gen AI, Ollama, Local AI Models]
 tags: [LLM, Gen AI, Ollama, Local AI Models]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🤖 Working with LLMs - Tool Calls Unlock AI's True Power 🚀"
+title: "🤖 Working with LLMs Part 4 - Tool Calls Unlock AI's True Power 🚀"
 date: 2025-10-12 10:00:00 +0000
 categories: [LLM, Gen AI, Ollama, Local AI Models]
 tags: [LLM, Gen AI, Ollama, Local AI Models]
