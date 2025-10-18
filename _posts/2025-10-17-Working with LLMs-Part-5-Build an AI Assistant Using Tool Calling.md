@@ -12,7 +12,7 @@ excerpt: "Imagine asking an AI: What's the weather in Tokyo? The AI doesn't actu
 ## 📺 Tutorial Video
 
 - [**🤖 Working with LLMs Part 5: Build an AI Assistant Using Tool Calling 🚀**](https://youtu.be/jCMPxct7ARc){:target="_blank"}
-  [![🤖 Working with LLMs Part 5: Build an AI Assistant Using Tool Calling 🚀](/docs/assets/images/2025/oct/llms/5.png)](https://youtu.be/9praXP2u_Zk){:target="_blank"}
+  [![🤖 Working with LLMs Part 5: Build an AI Assistant Using Tool Calling 🚀](/docs/assets/images/2025/oct/llms/5.png)](https://youtu.be/jCMPxct7ARc){:target="_blank"}
 ---
 ## 🎯 Introduction to Tool Calling
 

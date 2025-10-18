@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="Working with LLMs Part 5: Build an AI Assistant Using Tool Calling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-10-07-Working-with-LLMs–Introduction-to-Language-Models.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-10-07-Working-with-LLMs–Introduction-to-Language-Models.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-10-10-Working-with-LLMs–Start-Your-LLM-Journey-with-Ollama.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-10-10-Working-with-LLMs–Start-Your-LLM-Journey-with-Ollama.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-10-11-Working-with-LLMs-Build-a-Real-Chatbot-Using-LLMs.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-10-11-Working-with-LLMs-Build-a-Real-Chatbot-Using-LLMs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-10-12-Working with LLMs - Tool Calls Unlock AI's True Power.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-10-12-Working with LLMs - Tool Calls Unlock AI's True Power.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-10-17-Working with LLMs - Build an AI Assistant Using Tool Calling.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-10-17-Working with LLMs - Build an AI Assistant Using Tool Calling.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2025-10-17-Working with LLMs-Part-5-Build an AI Assistant Using Tool Calling.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-10-17-Working with LLMs-Part-5-Build an AI Assistant Using Tool Calling.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,22 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750283478776</updated>
-    </task>
-    <task id="LOCAL-00002" summary="First commit">
-      <option name="closed" value="true" />
-      <created>1750366292316</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1750366292316</updated>
-    </task>
-    <task id="LOCAL-00003" summary="First commit">
-      <option name="closed" value="true" />
-      <created>1750389474351</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1750389474351</updated>
     </task>
     <task id="LOCAL-00004" summary="First commit">
       <option name="closed" value="true" />
@@ -565,7 +545,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760739569051</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Working with LLMs Part 5: Build an AI Assistant Using Tool Calling">
+      <option name="closed" value="true" />
+      <created>1760739874016</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1760739874016</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Working with LLMs Part 5: Build an AI Assistant Using Tool Calling">
+      <option name="closed" value="true" />
+      <created>1760739976799</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1760739976799</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
