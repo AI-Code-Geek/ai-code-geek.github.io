@@ -215,6 +215,8 @@ python helper-script.py --symbol NVDA --period 1y --email
 ![🔧 Installing the Skill in Claude Code](/docs/assets/images/2026/mar/skills/1.png)
 
 Claude Code is the CLI that runs Claude directly from your terminal with **native Skills support**.
+#### 📚 GitHub Repository
+- [GitHub Repository - Claude Skills](https://github.com/AI-Code-Geek/claude-workspace)
 
 ### Step 1 — Prerequisite: Claude Code must already be running
 
