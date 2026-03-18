@@ -2,15 +2,13 @@
 layout: post
 title: "🤖 Claude Skills - Introduction & Overview 🚀"
 date: 2026-03-18 10:00:00 +0000
-categories: [LLM, Gen AI, Ollama, Local AI Models, Skills, Agentic AI, Claude, Claude Code,AI Agents]
-tags: [LLM, Gen AI, Ollama, Local AI Models, Skills, Agentic AI, Claude, Claude Code, AI Agents]
+categories: [Agentic AI, Claude, Skills, Claude Code,AI Agents,LLM, Gen AI, Ollama, Local AI Models]
+tags: [Agentic AI, Claude, Skills, Claude Code,AI Agents,LLM, Gen AI, Ollama, Local AI Models]
 author_profile: true
 author: "nagul_meera"
 reading_time: 5
 excerpt: "A **Skill** is an organized package of instructions, scripts, and resources that gives a Claude agent the ability to perform a specific task with expertise."
 ---
-# Claude Skills - Introduction & Overview
-
 ## Table of Contents
 
 1. [What is a Skill?](#1-what-is-a-skill)
