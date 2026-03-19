@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="Working with LLMs Part 5: Build an AI Assistant Using Tool Calling">
+    <list default="true" id="5331b696-4b4c-422c-b4e8-fb552c4ecd16" name="Changes" comment="Stop Coding Alone: Agentic Tools Every Developer Needs Right Now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-10-17-Working with LLMs-Part-5-Build an AI Assistant Using Tool Calling.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-10-17-Working with LLMs-Part-5-Build an AI Assistant Using Tool Calling.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +52,13 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\_posts" />
+      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2026\mar" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\pdf" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2025\docs" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2025\sept\claude" />
-      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2025\august\claude-code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\docs\assets\images\2026\mar\skills" />
       <recent name="C:\mythigs\LLMWorkSpace\python\ai-code-geek.github.io\assets\images\favicon" />
     </key>
   </component>
@@ -168,38 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750283478776</updated>
-    </task>
-    <task id="LOCAL-00004" summary="First commit">
-      <option name="closed" value="true" />
-      <created>1750390541900</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1750390541900</updated>
-    </task>
-    <task id="LOCAL-00005" summary="First commit">
-      <option name="closed" value="true" />
-      <created>1750427349308</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1750427349308</updated>
-    </task>
-    <task id="LOCAL-00006" summary="First commit">
-      <option name="closed" value="true" />
-      <created>1750427625610</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1750427625610</updated>
-    </task>
-    <task id="LOCAL-00007" summary="First commit">
-      <option name="closed" value="true" />
-      <created>1750428060515</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1750428060515</updated>
     </task>
     <task id="LOCAL-00008" summary="First commit">
       <option name="closed" value="true" />
@@ -561,7 +529,39 @@
       <option name="project" value="LOCAL" />
       <updated>1760739976799</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Claude Skills — Introduction &amp; Overview">
+      <option name="closed" value="true" />
+      <created>1773854554626</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1773854554626</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Claude Skills -  Hands-On: Build a Stock Analyzer Expert with Claude Skills">
+      <option name="closed" value="true" />
+      <created>1773859223557</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1773859223557</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Claude Skills -  Hands-On: Build a Stock Analyzer Expert with Claude Skills">
+      <option name="closed" value="true" />
+      <created>1773866936526</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1773866936526</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Stop Coding Alone: Agentic Tools Every Developer Needs Right Now">
+      <option name="closed" value="true" />
+      <created>1773944621250</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1773944621250</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -576,6 +576,9 @@
     <MESSAGE value="Working with LLMs – Start Your LLM Journey with Ollama" />
     <MESSAGE value=" Working with LLMs – Part 3: Build a Real Chatbot Using LLMs" />
     <MESSAGE value="Working with LLMs Part 5: Build an AI Assistant Using Tool Calling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with LLMs Part 5: Build an AI Assistant Using Tool Calling" />
+    <MESSAGE value="Claude Skills — Introduction &amp; Overview" />
+    <MESSAGE value="Claude Skills -  Hands-On: Build a Stock Analyzer Expert with Claude Skills" />
+    <MESSAGE value="Stop Coding Alone: Agentic Tools Every Developer Needs Right Now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stop Coding Alone: Agentic Tools Every Developer Needs Right Now" />
   </component>
 </project>
