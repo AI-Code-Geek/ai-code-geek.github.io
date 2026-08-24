@@ -58,7 +58,7 @@ I believe in **continuous learning, open collaboration, and hands-on experimenta
 
 📌 **Website:** [aicodegeek.com](https://aicodegeek.com)
 📌 **GitHub:** [github.com/ai-code-geek](https://github.com/ai-code-geek){:target="_blank"}
-📌 **LinkedIn:** [linkedin.com/in/liferaysavvy](https://linkedin.com/in/liferaysavvy){:target="_blank"}
+📌 **LinkedIn:** [linkedin.com/in/nagulmeeramahankali](https://www.linkedin.com/in/nagulmeeramahankali/){:target="_blank"}
 📌 **Email:** [meera.success@gmail.com](mailto:meera.success@gmail.com)
 
 Join me on this journey as we **unravel the wonders of agentic AI, one post at a time**! 🚀
