@@ -34,7 +34,7 @@ description: "Browse all tags used in blog posts"
                 {% assign relative_size = tag_size | times: 100 | divided_by: max_count %}
                 {% assign font_size = relative_size | times: 0.8 | plus: 80 %}
                 
-                <a href="{{ '/tags/' | append: tag_name | slugify | relative_url }}" 
+                <a href="{{ '' | append: tag_name | slugify | prepend: '/tags/' | append: '/' | relative_url }}" 
                    class="tag-cloud-item" 
                    style="font-size: {{ font_size }}%; opacity: {{ relative_size | times: 0.3 | plus: 70 | divided_by: 100.0 }};"
                    title="{{ tag_size }} {% if tag_size == 1 %}post{% else %}posts{% endif %} tagged with '{{ tag_name }}'">
@@ -76,7 +76,7 @@ description: "Browse all tags used in blog posts"
             <div class="popular-tag-card">
                 <div class="tag-header">
                     <h3>
-                        <a href="{{ '/tags/' | append: tag_name | slugify | relative_url }}">
+                        <a href="{{ '' | append: tag_name | slugify | prepend: '/tags/' | append: '/' | relative_url }}">
                             {{ tag_name }}
                         </a>
                     </h3>
@@ -121,7 +121,7 @@ description: "Browse all tags used in blog posts"
                 </div>
                 
                 <div class="tag-footer">
-                    <a href="{{ '/tags/' | append: tag_name | slugify | relative_url }}" class="tag-link">
+                    <a href="{{ '' | append: tag_name | slugify | prepend: '/tags/' | append: '/' | relative_url }}" class="tag-link">
                         View all {{ tag_size }} posts →
                     </a>
                 </div>
@@ -171,7 +171,7 @@ description: "Browse all tags used in blog posts"
             {% endif %}
             
             <div class="tag-item">
-                <a href="{{ '/tags/' | append: tag_name | slugify | relative_url }}" class="tag-name">
+                <a href="{{ '' | append: tag_name | slugify | prepend: '/tags/' | append: '/' | relative_url }}" class="tag-name">
                     {{ tag_name }}
                 </a>
                 <span class="tag-meta">
@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             name: "{{ tag_name | escape }}",
             count: {{ site.tags[tag_name] | size }},
-            url: "{{ '/tags/' | append: tag_name | slugify | relative_url }}"
+            url: "{{ '' | append: tag_name | slugify | prepend: '/tags/' | append: '/' | relative_url }}"
         }{% unless forloop.last %},{% endunless %}
         {% endfor %}
     ];
