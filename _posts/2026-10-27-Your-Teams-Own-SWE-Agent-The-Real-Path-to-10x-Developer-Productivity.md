@@ -16,6 +16,8 @@ excerpt: "Coding agents are already fast. What slows teams down is re-explaining
 | Packaged as | **One versioned Claude Code plugin** |
 | Owned by | **The platform team, maintained like code** |
 
+> 💡 **About the example:** throughout this post I use **AicodeGeek** as a demo company to show the pattern end to end. The `aicodegeek-*` libraries (`aicodegeek-http`, `aicodegeek-authz`, `aicodegeek-log` …), the `aicodegeek-swe-agent` plugin and the `aicodegeek/claude-plugins` marketplace are illustrations, not real packages you can install. Swap in your own platform, libraries and policies.
+
 ---
 
 ## Table of Contents
@@ -245,7 +247,7 @@ A hook script that exits with code 2 blocks the action and sends its message bac
 
 ### 📦 Distributing It to the Whole Team
 
-Publish the plugin from an internal Git repo set up as a plugin marketplace. Developers install it once:
+Publish the plugin from an internal Git repo set up as a plugin marketplace. Developers install it once (the names below are from the AicodeGeek example; replace them with your own marketplace repo and plugin name):
 
 ```
 /plugin marketplace add aicodegeek/claude-plugins
